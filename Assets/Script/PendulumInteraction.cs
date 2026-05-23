@@ -30,6 +30,8 @@ public class PendulumInteraction : MonoBehaviour
     [Header("UI Canvas References (Left: Experiment Data)")]
     public TextMeshProUGUI timerText;
     public TextMeshProUGUI swingCountText;
+
+    public TextMeshProUGUI angleText;
     public Button startButton;
     public Button resetButton;
     public Button saveButton; 
@@ -173,20 +175,31 @@ public class PendulumInteraction : MonoBehaviour
     }
 
     void UpdatePositionBasedOnAngle()
-    {
-        // 1. Logik Kedudukan (Position) sedia ada
-        float visualLength = realLengthInMeters * visualScaleMultiplier;
-        float x = pivotPoint.position.x + Mathf.Sin(currentAngle) * visualLength;
-        float y = pivotPoint.position.y - Mathf.Cos(currentAngle) * visualLength;
-        transform.position = new Vector3(x, y, 0);
+{
+    float visualLength = realLengthInMeters * visualScaleMultiplier;
+    float x = pivotPoint.position.x + Mathf.Sin(currentAngle) * visualLength;
+    float y = pivotPoint.position.y - Mathf.Cos(currentAngle) * visualLength;
+    transform.position = new Vector3(x, y, 0);
 
-        // 2. LOGIK PUTARAN (ROTATION) BAHARU
-        // Tukar sudut dari radian ke darjah
-        float angleInDegrees = currentAngle * Mathf.Rad2Deg; 
-        
-        // Putarkan paksi Z objek bola ini
-        transform.localEulerAngles = new Vector3(0, 0, angleInDegrees);
+    float angleInDegrees = currentAngle * Mathf.Rad2Deg; 
+    transform.localEulerAngles = new Vector3(0, 0, angleInDegrees);
+
+    if (angleText != null)
+    {
+        float displayAngle = Mathf.Abs(angleInDegrees);
+        angleText.text = "ANGLE: " + displayAngle.ToString("F0") + "°";
+
+        // SCIENTIFIC ACCURACY CHECK: Green if <= 10 degrees, Red if higher
+        if (displayAngle <= 10f)
+        {
+            angleText.color = Color.green; 
+        }
+        else
+        {
+            angleText.color = Color.red;
+        }
     }
+}
 
     void OnMouseDown()
     {
