@@ -6,6 +6,7 @@ public class QuizManager : MonoBehaviour
     [Header("Quiz UI Elements")]
     public GameObject quizPanel;
     public TextMeshProUGUI feedbackText;
+    public GameObject summaryPanel;
 
     void Start()
     {
@@ -40,5 +41,9 @@ public class QuizManager : MonoBehaviour
     private void HideQuiz()
     {
         quizPanel.SetActive(false);
+        if (summaryPanel != null)
+        {
+            summaryPanel.SetActive(true);
+        }
     }
 }

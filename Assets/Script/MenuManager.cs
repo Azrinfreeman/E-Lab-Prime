@@ -16,8 +16,8 @@ public class MainMenuManager : MonoBehaviour
     public Image butangNavPencapaian;
 
     [Header("Tetapan Warna Lampu Butang")]
-    public Color warnaBiasa = Color.white; // Warna asal butang
-    public Color warnaMenyala = new Color(0.6f, 1f, 0.6f); // Warna hijau menyala (boleh diubah di Inspector)
+    public Color warnaBiasa = new Color(0.10f, 0.16f, 0.28f, 0.85f); // Warna asal butang (frosted dark)
+    public Color warnaMenyala = new Color(0.18f, 0.77f, 0.71f, 1f); // Warna cyan menyala
 
     [Header("Tetapan Animasi")]
     public float masaDelayButang = 0.15f; 

@@ -32,6 +32,7 @@ public class PendulumInteraction : MonoBehaviour
     public TextMeshProUGUI swingCountText;
 
     public TextMeshProUGUI angleText;
+    public TextMeshProUGUI copyAngleText;
     public Button startButton;
     public Button resetButton;
     public Button saveButton; 
@@ -184,9 +185,10 @@ public class PendulumInteraction : MonoBehaviour
     float angleInDegrees = currentAngle * Mathf.Rad2Deg; 
     transform.localEulerAngles = new Vector3(0, 0, angleInDegrees);
 
+    float displayAngle = Mathf.Abs(angleInDegrees);
+
     if (angleText != null)
     {
-        float displayAngle = Mathf.Abs(angleInDegrees);
         angleText.text = "ANGLE: " + displayAngle.ToString("F0") + "°";
 
         // SCIENTIFIC ACCURACY CHECK: Green if <= 10 degrees, Red if higher
@@ -198,6 +200,11 @@ public class PendulumInteraction : MonoBehaviour
         {
             angleText.color = Color.red;
         }
+    }
+
+    if (copyAngleText != null)
+    {
+        copyAngleText.text = "Sudut: " + displayAngle.ToString("F0") + "°";
     }
 }
 
