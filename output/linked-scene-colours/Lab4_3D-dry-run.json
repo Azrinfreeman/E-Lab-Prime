@@ -1,0 +1,630 @@
+[
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/Title (1)/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE9FF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/Title (1)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/SuhuSlider/Background",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "ABC0D4FF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/SuhuSlider/Fill Area/Fill",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86FFF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/SuhuSlider/Handle Slide Area/Handle",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "020816FF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/SuhuSlider/leftImage",
+    "id": 3,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/SuhuSlider/ValueText",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/AnginSlider/Background",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "ABC0D4FF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/AnginSlider/Fill Area/Fill",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86FFF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/AnginSlider/Handle Slide Area/Handle",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "020816FF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/AnginSlider/leftImage",
+    "id": 3,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/AnginSlider/ValueText",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/AreaSlider/Background",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "ABC0D4FF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/AreaSlider/Fill Area/Fill",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86FFF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/AreaSlider/Handle Slide Area/Handle",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "020816FF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/AreaSlider/leftImage",
+    "id": 3,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/AreaSlider/ValueText",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/HumiditySlider/Background",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "ABC0D4FF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/HumiditySlider/Fill Area/Fill",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86FFF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/HumiditySlider/Handle Slide Area/Handle",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "020816FF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/HumiditySlider/leftImage",
+    "id": 3,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/GameObject/HumiditySlider/ValueText",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/Bottom/Button",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/Bottom/Button/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/Bottom/ResetBtn",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FF4936FF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/Bottom/ResetBtn/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/Bottom/KadarPenyejatan/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Main Camera/Lab4_3DTablet/TabletCanvas/Right/Bottom/KadarPenyejatan/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Title/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE9FF"
+  },
+  {
+    "path": "Canvas/bg/Title/Image/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Pemanas_Visual",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Pemanas_Visual/Lampu_Pemanas",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FF8100FF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/Water_Mask",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/Water_Mask/Air_Visual",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "32D8FFC6"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/Water_Mask/Air_Visual/Water_Surface",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "72BFCE58"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/BunsenBurner",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/Fan",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Bottom/Button",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/bg/Bottom/Button/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Bottom/Button (1)",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/bg/Bottom/Button (1)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Bottom/Button (2)",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FF4936FF"
+  },
+  {
+    "path": "Canvas/bg/Bottom/Button (2)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "D2EDFFFF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Background",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "ABC0D4FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Fill Area/Fill",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86FFF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Text_Peratusan",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (1)",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (2)",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (3)",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (4)",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (5)",
+    "id": 5,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (6)",
+    "id": 6,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (7)",
+    "id": 7,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (8)",
+    "id": 8,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (9)",
+    "id": 9,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (10)",
+    "id": 10,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (11)",
+    "id": 11,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/ExitButton",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/Lab5_QuizPanel",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/Lab5_QuizPanel/QuizQuestion",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/Lab5_QuizPanel/FeedbackText",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/Lab5_QuizPanel/Ans0",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/Lab5_QuizPanel/Ans0/Text",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/Lab5_QuizPanel/Ans1",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/Lab5_QuizPanel/Ans1/Text",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/Lab5_QuizPanel/Ans2",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/Lab5_QuizPanel/Ans2/Text",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/Lab5_QuizPanel/Ans3",
+    "id": 5,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/Lab5_QuizPanel/Ans3/Text",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/Lab5_SummaryPanel",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/Lab5_SummaryPanel/CloseBtn",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FF4936FF"
+  },
+  {
+    "path": "Canvas/RotateCameraButton",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/RotateCameraButton/CameraIcon",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/RotateCameraButton/CameraLabel",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/Lab4_QuizPanel",
+    "id": 5,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/Lab4_QuizPanel/QuizQuestion",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/Lab4_QuizPanel/FeedbackText",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/Lab4_QuizPanel/Ans0",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/Lab4_QuizPanel/Ans0/Text",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/Lab4_QuizPanel/Ans1",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/Lab4_QuizPanel/Ans1/Text",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/Lab4_QuizPanel/Ans2",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/Lab4_QuizPanel/Ans2/Text",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/Lab4_QuizPanel/Ans3",
+    "id": 5,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/Lab4_QuizPanel/Ans3/Text",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/Lab4_SummaryPanel",
+    "id": 6,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/Lab4_SummaryPanel/CloseBtn",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FF4936FF"
+  },
+  {
+    "path": "Lab4_Notebook/Lab4_NotebookPanel/SubmitBtn",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Lab4_Notebook/Lab4_NotebookPanel/SubmitBtn/Text",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Lab4_Notebook/Lab4_NotebookPanel/CloseBtn",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FF4936FF"
+  },
+  {
+    "path": "Lab4_Notebook/Lab4_NotebookPanel/CloseBtn/Text",
+    "kind": "Text",
+    "action": "colour"
+  }
+]

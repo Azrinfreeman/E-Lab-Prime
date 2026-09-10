@@ -49,6 +49,9 @@ public class PengurusDataAmali : MonoBehaviour
 
         senaraiDataEksperimen.Add(rekodBaru);
 
+        var tut = FindAnyObjectByType<Lab1TutorialManager>();
+        if (tut != null) tut.CompleteStep4();
+
         Debug.Log(
             "DATA BERJAYA DISIMPAN! Panjang: "
                 + rekodBaru.panjangBenang

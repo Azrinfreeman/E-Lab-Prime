@@ -1,0 +1,11 @@
+{
+  "generator": "edge-tts",
+  "voice": "ms-MY-OsmanNeural",
+  "rate": "-8%",
+  "synthetic": true,
+  "lines": [
+    "Hidupkan suis pemanas. Laraskan suhu, kadar kacauan dan saiz bahan menggunakan kawalan pada tablet.",
+    "Klik butang Start Eksperimen pada tablet. Perhatikan proses pelarutan dan tunggu sehingga eksperimen selesai.",
+    "Eksperimen selesai. Klik Log Data pada buku amali untuk menyemak hasil dan menjawab kuiz."
+  ]
+}

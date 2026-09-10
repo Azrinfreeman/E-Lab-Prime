@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "scene": "Assets/Scenes/MainMenu.unity",
+  "panel": "Canvas/background/AmaliPanel",
+  "path": "E:\\Projects\\2026Projject\\Prime\\E-Lab Prime\\output\\agent-captures\\e940e6ea7f3b45f5bd0741d296bd6748\\capture.png",
+  "manifest": "E:\\Projects\\2026Projject\\Prime\\E-Lab Prime\\output\\agent-captures\\e940e6ea7f3b45f5bd0741d296bd6748\\manifest.json",
+  "width": 2560,
+  "height": 1440,
+  "message": "Captured native Game view. Visually inspect the file before accepting it.",
+  "finishedUtc": "2026-09-10T11:25:14.8423244Z"
+}

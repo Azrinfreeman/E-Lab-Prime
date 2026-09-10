@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "scene": "Assets/Scenes/Lab5_3D.unity",
+  "panel": "Lab5_Notebook",
+  "path": "E:\\Projects\\2026Projject\\Prime\\E-Lab Prime\\output\\agent-captures\\5e221a9053dc4d4083f1a0dcfc5c0523\\capture.png",
+  "manifest": "E:\\Projects\\2026Projject\\Prime\\E-Lab Prime\\output\\agent-captures\\5e221a9053dc4d4083f1a0dcfc5c0523\\manifest.json",
+  "width": 2560,
+  "height": 1440,
+  "message": "Captured native Game view. Visually inspect the file before accepting it.",
+  "finishedUtc": "2026-09-10T14:15:59.6522524Z"
+}

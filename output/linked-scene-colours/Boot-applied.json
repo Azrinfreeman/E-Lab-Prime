@@ -1,0 +1,433 @@
+[
+  {
+    "path": "StudioSplashCanvas/Background",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "D2EDFFFF"
+  },
+  {
+    "path": "StudioSplashCanvas/BackgroundGlow",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE902"
+  },
+  {
+    "path": "StudioSplashCanvas/ScienceGridVertical_0",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE909"
+  },
+  {
+    "path": "StudioSplashCanvas/ScienceGridVertical_1",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE909"
+  },
+  {
+    "path": "StudioSplashCanvas/ScienceGridVertical_2",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE909"
+  },
+  {
+    "path": "StudioSplashCanvas/ScienceGridVertical_3",
+    "id": 5,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE909"
+  },
+  {
+    "path": "StudioSplashCanvas/ScienceGridVertical_4",
+    "id": 6,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE909"
+  },
+  {
+    "path": "StudioSplashCanvas/ScienceGridVertical_5",
+    "id": 7,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE909"
+  },
+  {
+    "path": "StudioSplashCanvas/ScienceGridVertical_6",
+    "id": 8,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE909"
+  },
+  {
+    "path": "StudioSplashCanvas/ScienceGridVertical_7",
+    "id": 9,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE909"
+  },
+  {
+    "path": "StudioSplashCanvas/ScienceGridVertical_8",
+    "id": 10,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE909"
+  },
+  {
+    "path": "StudioSplashCanvas/ScienceGridHorizontal_0",
+    "id": 11,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE908"
+  },
+  {
+    "path": "StudioSplashCanvas/ScienceGridHorizontal_1",
+    "id": 12,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE908"
+  },
+  {
+    "path": "StudioSplashCanvas/ScienceGridHorizontal_2",
+    "id": 13,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE908"
+  },
+  {
+    "path": "StudioSplashCanvas/ScienceGridHorizontal_3",
+    "id": 14,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE908"
+  },
+  {
+    "path": "StudioSplashCanvas/ScienceGridHorizontal_4",
+    "id": 15,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE908"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_0",
+    "id": 16,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_1",
+    "id": 17,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_2",
+    "id": 18,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_3",
+    "id": 19,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_4",
+    "id": 20,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_5",
+    "id": 21,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_6",
+    "id": 22,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_7",
+    "id": 23,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_8",
+    "id": 24,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_9",
+    "id": 25,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_10",
+    "id": 26,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_11",
+    "id": 27,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_12",
+    "id": 28,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_13",
+    "id": 29,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_14",
+    "id": 30,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_15",
+    "id": 31,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_16",
+    "id": 32,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/BootParticle_17",
+    "id": 33,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE914"
+  },
+  {
+    "path": "StudioSplashCanvas/SoftVignette",
+    "id": 34,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE94C"
+  },
+  {
+    "path": "StudioSplashCanvas/PrimaryScanLine",
+    "id": 35,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE924"
+  },
+  {
+    "path": "StudioSplashCanvas/SecondaryScanLineA",
+    "id": 36,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE924"
+  },
+  {
+    "path": "StudioSplashCanvas/SecondaryScanLineB",
+    "id": 37,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE917"
+  },
+  {
+    "path": "StudioSplashCanvas/LogoGroup/LogoHalo",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE90A"
+  },
+  {
+    "path": "StudioSplashCanvas/LogoGroup/LogoClarityPlate",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE913"
+  },
+  {
+    "path": "StudioSplashCanvas/LogoGroup/PrimaryLogoImage",
+    "id": 2,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "StudioSplashCanvas/LogoGroup/SecondaryLogoImage",
+    "id": 3,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "StudioSplashCanvas/LogoGroup/StudioName",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "StudioSplashCanvas/LogoGroup/PresentsText",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "StudioSplashCanvas/LogoGroup/ProductTitle",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "StudioSplashCanvas/LogoGroup/LogoSheen",
+    "id": 7,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFF00"
+  },
+  {
+    "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_0",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86F29"
+  },
+  {
+    "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_1",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86F29"
+  },
+  {
+    "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_2",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86F29"
+  },
+  {
+    "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_3",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86F29"
+  },
+  {
+    "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_4",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86F29"
+  },
+  {
+    "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_5",
+    "id": 5,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86F29"
+  },
+  {
+    "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_6",
+    "id": 6,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86F29"
+  },
+  {
+    "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_7",
+    "id": 7,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86F29"
+  },
+  {
+    "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_8",
+    "id": 8,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86F29"
+  },
+  {
+    "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_9",
+    "id": 9,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86F29"
+  },
+  {
+    "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_10",
+    "id": 10,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86F29"
+  },
+  {
+    "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_11",
+    "id": 11,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86F29"
+  },
+  {
+    "path": "StudioSplashCanvas/ProgressTrack",
+    "id": 40,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86F0E"
+  },
+  {
+    "path": "StudioSplashCanvas/ProgressTrack/ProgressFill",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86F40"
+  },
+  {
+    "path": "StudioSplashCanvas/LoadingText",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "StudioSplashCanvas/SkipHint",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "StudioSplashCanvas/FadeCurtain",
+    "id": 43,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "D2EDFFFF"
+  }
+]

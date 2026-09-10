@@ -28,13 +28,25 @@ public class QuizManager : MonoBehaviour
 
         if (isCorrect)
         {
-            feedbackText.text = "<color=green>Correct! Impurities increase the boiling point of water.</color>";
+            KidFriendlySceneTheme.SetFeedback(feedbackText, "<color=green>Correct! Impurities increase the boiling point of water.</color>");
+            
+            if (PlayerPrefs.GetInt("Lab3_3D_Completed", 0) == 0)
+            {
+                if (EconomyManager.Instance != null)
+                {
+                    EconomyManager.Instance.AddXP(500);
+                    EconomyManager.Instance.AddCredits(100);
+                }
+            }
+            PlayerPrefs.SetInt("Lab3_3D_Completed", 1);
+            PlayerPrefs.Save();
+
             // Hide the quiz automatically after 4 seconds
             Invoke("HideQuiz", 4f); 
         }
         else
         {
-            feedbackText.text = "<color=red>Incorrect. Please look at the graph observations again.</color>";
+            KidFriendlySceneTheme.SetFeedback(feedbackText, "<color=red>Incorrect. Please look at the graph observations again.</color>");
         }
     }
 

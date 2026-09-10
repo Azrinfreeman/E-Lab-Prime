@@ -13,7 +13,8 @@ public class HeaterPowerSwitch3D : MonoBehaviour
     [Header("Audio Settings")]
     public AudioClip clickSFX;
 
-    private bool isPowerOn = false;
+    public bool isPowerOn = false;
+    public bool isOn => isPowerOn;
     private AudioSource audioSource;
     private Renderer[] renderers;
     private Color[] originalColors;

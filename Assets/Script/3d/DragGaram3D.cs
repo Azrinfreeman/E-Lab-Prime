@@ -18,6 +18,7 @@ public class DragGaram3D : MonoBehaviour
     private bool isDragging = false;
     private bool hasPoured = false;
     private float pourTimer = 0f;
+    private Vector3 dragOffset;
 
     void Start()
     {
@@ -40,7 +41,14 @@ public class DragGaram3D : MonoBehaviour
     {
         if (hasPoured || (heatingManager != null && heatingManager.IsHeating)) return;
         isDragging = true;
+        
         distanceToCam = mainCam.WorldToScreenPoint(transform.position).z;
+        Vector3 mouseScreenPos = Input.mousePosition;
+        mouseScreenPos.z = distanceToCam;
+        Vector3 mouseWorldPos = mainCam.ScreenToWorldPoint(mouseScreenPos);
+        
+        // Calculate exact offset without artificial lift for perfect cursor alignment
+        dragOffset = transform.position - mouseWorldPos;
     }
 
     void OnMouseDrag()
@@ -51,10 +59,7 @@ public class DragGaram3D : MonoBehaviour
         mouseScreenPos.z = distanceToCam;
         Vector3 mouseWorldPos = mainCam.ScreenToWorldPoint(mouseScreenPos);
         
-        // Add height to float above the table during drag
-        mouseWorldPos.y += dragHeight;
-
-        transform.position = mouseWorldPos;
+        transform.position = mouseWorldPos + dragOffset;
 
         // Check distance to target beaker B
         if (targetBeakerB != null)

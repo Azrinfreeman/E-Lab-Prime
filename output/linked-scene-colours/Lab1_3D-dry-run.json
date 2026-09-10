@@ -1,0 +1,933 @@
+[
+  {
+    "path": "Canvas/bg",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Title/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE9FF"
+  },
+  {
+    "path": "Canvas/bg/Title/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Middle/AngleDisplayText",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Middle/Protractor",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFF84"
+  },
+  {
+    "path": "Canvas/bg/Middle/Retort (1)",
+    "id": 2,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/AngleDisplayText_Copy",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Left",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Left/Title (1)/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE9FF"
+  },
+  {
+    "path": "Canvas/bg/Left/Title (1)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Left/JamRandik",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Left/JamRandik/TitikPusingan/needle",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Left/Bottom/Text (TMP) (2)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Left/Bottom/StartButton",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/bg/Left/Bottom/StartButton/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Left/Bottom/HentiButton",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FF4936FF"
+  },
+  {
+    "path": "Canvas/bg/Left/Bottom/HentiButton/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Left/Bottom/PadamButton",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FF4936FF"
+  },
+  {
+    "path": "Canvas/bg/Left/Bottom/PadamButton/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Left/Bottom/SimpanButton",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/bg/Left/Bottom/SimpanButton/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Right",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Right/Title (1)/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE9FF"
+  },
+  {
+    "path": "Canvas/bg/Right/Title (1)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Right/GameObject/Slider/Background",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "ABC0D4FF"
+  },
+  {
+    "path": "Canvas/bg/Right/GameObject/Slider/Fill Area/Fill",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86FFF"
+  },
+  {
+    "path": "Canvas/bg/Right/GameObject/Slider/Handle Slide Area/Handle",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "020816FF"
+  },
+  {
+    "path": "Canvas/bg/Right/GameObject/sliderText",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Right/Bottom/Button",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/bg/Right/Bottom/Button/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Right/Bottom/Button (1)",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/bg/Right/Bottom/Button (1)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/TimeTableButton",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/bg/TimeTableButton/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/TimeTableButton/Image/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/ViewGraph",
+    "id": 5,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/bg/ViewGraph/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/ViewGraph/Image/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "B8B8B8FF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (1)",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (1)/Image (2)",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (1)/Image (2)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (1)/Image (3)",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (1)/Image (3)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (1)/Image (4)",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (1)/Image (4)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (1)/Image (5)",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (1)/Image (5)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (2)",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (2)/Image (2)",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (2)/Image (2)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (2)/Image (3)",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (2)/Image (3)/masaText1",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (2)/Image (4)",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (2)/Image (4)/tempohText1",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (2)/Image (5)",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (2)/Image (5)/tText1",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (3)",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (3)/Image (2)",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (3)/Image (2)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (3)/Image (3)",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (3)/Image (3)/masaText2",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (3)/Image (4)",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (3)/Image (4)/tempohText2",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (3)/Image (5)",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (3)/Image (5)/tText2",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (4)",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (4)/Image (2)",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (4)/Image (2)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (4)/Image (3)",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (4)/Image (3)/masaText3",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (4)/Image (4)",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (4)/Image (4)/tempohText3",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (4)/Image (5)",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (4)/Image (5)/tText3",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (5)",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (5)/Image (2)",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (5)/Image (2)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (5)/Image (3)",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (5)/Image (3)/masaText4",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (5)/Image (4)",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (5)/Image (4)/tempohText4",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (5)/Image (5)",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (5)/Image (5)/tText4",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (6)",
+    "id": 5,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (6)/Image (2)",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (6)/Image (2)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (6)/Image (3)",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (6)/Image (3)/masaText5",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (6)/Image (4)",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (6)/Image (4)/tempohText5",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (6)/Image (5)",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/bg/Jadual/bg/Image/bg/Image (6)/Image (5)/tText5",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Jadual/ExitButton",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Dot_20",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Dot_40",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Dot_60",
+    "id": 2,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Dot_80",
+    "id": 3,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Dot_100",
+    "id": 4,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Line_1",
+    "id": 5,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Line_2",
+    "id": 6,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Line_3",
+    "id": 7,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Line_4",
+    "id": 8,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/Bottom/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "020816FF"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/Bottom/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/Bottom/Text (TMP) (1)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/Bottom/Text (TMP) (2)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/Bottom/Text (TMP) (3)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/Bottom/Text (TMP) (4)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/Bottom/Text (TMP) (5)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/Left/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "020816FF"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/GraphPlotArea/Left/Text (TMP) (5)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/Button",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/GraphWindow/Button/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "D2EDFFFF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Background",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "ABC0D4FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Fill Area/Fill",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86FFF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Text_Peratusan",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (1)",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (2)",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (3)",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (4)",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (5)",
+    "id": 5,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (6)",
+    "id": 6,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (7)",
+    "id": 7,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (8)",
+    "id": 8,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (9)",
+    "id": 9,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (10)",
+    "id": 10,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (11)",
+    "id": 11,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/ExitButton",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/CameraDragArea",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/CameraDragArea/CameraIcon",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/CameraDragArea/CameraLabel",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/NotebookLogPanel",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/NotebookLogPanel/Outline",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "0208161F"
+  },
+  {
+    "path": "Canvas/NotebookLogPanel/InputA",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/NotebookLogPanel/InputB",
+    "id": 6,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/NotebookLogPanel/Buttons/Btn_SubmitLog",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/NotebookLogPanel/Buttons/Btn_CloseLog",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FF4936FF"
+  }
+]

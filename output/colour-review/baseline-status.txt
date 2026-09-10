@@ -1,0 +1,438 @@
+ M "Assets/Fonts/FredokaOne SDF.asset"
+ M Assets/Materials/GridMatMat_Lab2.mat
+ M Assets/Materials/Lab2_GridMatTex.png
+ M Assets/Materials/Lab3_VolumeProfile.asset
+ M Assets/Materials/Lab4_VolumeProfile.asset
+ M Assets/Scenes/Lab1_3D.unity
+ M Assets/Scenes/Lab2_3D.unity
+ M Assets/Scenes/Lab3.unity
+ M Assets/Scenes/Lab3_3D.unity
+ M Assets/Scenes/Lab4_3D.unity
+ M Assets/Scenes/Lab5_0.unity
+ M Assets/Scenes/Login.unity
+ M Assets/Scenes/MainMenu.unity
+ M Assets/Script/3d/DragBandul.cs
+ M Assets/Script/3d/DragGaram3D.cs
+ M Assets/Script/3d/DragLighter3D.cs
+ M Assets/Script/3d/ElectrolysisManager3D.cs
+ M Assets/Script/3d/EvaporationManager3D.cs
+ M Assets/Script/3d/HeaterPowerSwitch3D.cs
+ M Assets/Script/3d/InteractiveNotebook3D.cs
+ M Assets/Script/3d/JamRandik.cs
+ M Assets/Script/3d/Lab3TutorialManager.cs
+ M Assets/Script/3d/Lab4TutorialManager.cs
+ M Assets/Script/3d/PengurusDataAmali.cs
+ M Assets/Script/3d/PhysicalSwitch3D.cs
+ M Assets/Script/3d/QuizManagerLab4.cs
+ M Assets/Script/3d/Stopwatch3D.cs
+ M Assets/Script/3d/WaterHeatingManager3D.cs
+ M Assets/Script/CameraDragArea.cs
+ M Assets/Script/Editor/Lab2_3D_Setup.cs
+ M Assets/Script/Editor/Lab3_3D_Setup.cs
+ M Assets/Script/Editor/Lab4_3D_Setup.cs
+ M Assets/Script/MenuManager.cs
+ M Assets/Script/PendulumInteraction.cs
+ M Assets/Script/QuizManager.cs
+ M Assets/Settings/Cinematic_Lab_Profile.asset
+ M Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+ M "Assets/UI Flat/pb_rect_rounded.png.meta"
+ M "E-Lab Prime.slnx"
+ M Packages/manifest.json
+ M Packages/packages-lock.json
+ M ProjectSettings/EditorBuildSettings.asset
+ M ProjectSettings/PackageManagerSettings.asset
+ M ProjectSettings/ProjectSettings.asset
+ M ProjectSettings/ProjectVersion.txt
+ M ProjectSettings/VFXManager.asset
+ D "Publish/E-Lab Prime21hb.zip"
+ M "Publish/E-Lab Prime_BurstDebugInformation_DoNotShip/Data/Plugins/x86_64/lib_burst_generated.txt"
+ M "Publish/E-Lab Prime_Data/Managed/Assembly-CSharp.dll"
+ M "Publish/E-Lab Prime_Data/Managed/MCPForUnity.Runtime.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.AI.Navigation.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.Collections.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.InputSystem.ForUI.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.InputSystem.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.InternalAPIEngineBridge.004.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.InternalAPIEngineBridge.RenderPipelines.Core.Runtime.Shared.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.Mathematics.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.Multiplayer.Center.Common.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.PathTracing.Runtime.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.SurfaceCache.Runtime.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.TextMeshPro.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.Timeline.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.UnifiedRayTracing.Runtime.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.VisualScripting.Core.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.VisualScripting.Flow.dll"
+ M "Publish/E-Lab Prime_Data/Managed/Unity.VisualScripting.State.dll"
+ M "Publish/E-Lab Prime_Data/Managed/UnityEngine.UI.dll"
+ M "Publish/E-Lab Prime_Data/Plugins/x86_64/lib_burst_generated.dll"
+ M "Publish/E-Lab Prime_Data/RuntimeInitializeOnLoads.json"
+ M "Publish/E-Lab Prime_Data/ScriptingAssemblies.json"
+ M "Publish/E-Lab Prime_Data/app.info"
+ M "Publish/E-Lab Prime_Data/boot.config"
+ M "Publish/E-Lab Prime_Data/globalgamemanagers"
+ M "Publish/E-Lab Prime_Data/globalgamemanagers.assets"
+ M "Publish/E-Lab Prime_Data/level0"
+ M "Publish/E-Lab Prime_Data/level1"
+ M "Publish/E-Lab Prime_Data/level10"
+ M "Publish/E-Lab Prime_Data/level11"
+ M "Publish/E-Lab Prime_Data/level12"
+ M "Publish/E-Lab Prime_Data/level13"
+ M "Publish/E-Lab Prime_Data/level14"
+ M "Publish/E-Lab Prime_Data/level15"
+ M "Publish/E-Lab Prime_Data/level2"
+ M "Publish/E-Lab Prime_Data/level3"
+ M "Publish/E-Lab Prime_Data/level4"
+ M "Publish/E-Lab Prime_Data/level5"
+ M "Publish/E-Lab Prime_Data/level6"
+ M "Publish/E-Lab Prime_Data/level7"
+ M "Publish/E-Lab Prime_Data/level8"
+ M "Publish/E-Lab Prime_Data/level9"
+ M "Publish/E-Lab Prime_Data/resources.assets"
+ M "Publish/E-Lab Prime_Data/resources.assets.resS"
+ M "Publish/E-Lab Prime_Data/sharedassets0.assets"
+ M "Publish/E-Lab Prime_Data/sharedassets0.assets.resS"
+ M "Publish/E-Lab Prime_Data/sharedassets1.assets"
+ M "Publish/E-Lab Prime_Data/sharedassets1.assets.resS"
+ M "Publish/E-Lab Prime_Data/sharedassets10.assets"
+ M "Publish/E-Lab Prime_Data/sharedassets11.assets"
+ M "Publish/E-Lab Prime_Data/sharedassets11.assets.resS"
+ M "Publish/E-Lab Prime_Data/sharedassets11.resource"
+ M "Publish/E-Lab Prime_Data/sharedassets12.assets"
+ M "Publish/E-Lab Prime_Data/sharedassets13.assets"
+ M "Publish/E-Lab Prime_Data/sharedassets14.assets"
+ M "Publish/E-Lab Prime_Data/sharedassets14.assets.resS"
+ M "Publish/E-Lab Prime_Data/sharedassets15.assets"
+ M "Publish/E-Lab Prime_Data/sharedassets15.assets.resS"
+ M "Publish/E-Lab Prime_Data/sharedassets2.assets"
+ M "Publish/E-Lab Prime_Data/sharedassets2.assets.resS"
+ M "Publish/E-Lab Prime_Data/sharedassets3.assets"
+ M "Publish/E-Lab Prime_Data/sharedassets3.assets.resS"
+ M "Publish/E-Lab Prime_Data/sharedassets4.assets"
+ M "Publish/E-Lab Prime_Data/sharedassets5.assets"
+ M "Publish/E-Lab Prime_Data/sharedassets5.assets.resS"
+ M "Publish/E-Lab Prime_Data/sharedassets6.assets"
+ M "Publish/E-Lab Prime_Data/sharedassets7.assets"
+ M "Publish/E-Lab Prime_Data/sharedassets8.assets"
+ M "Publish/E-Lab Prime_Data/sharedassets9.assets"
+?? .agents/
+?? .codex/
+?? .vsconfig
+?? Assets/Branding.meta
+?? Assets/Branding/
+?? Assets/Materials/AmmeterDialMat.mat
+?? Assets/Materials/AmmeterDialMat.mat.meta
+?? Assets/Materials/AmmeterDialTex.png
+?? Assets/Materials/AmmeterDialTex.png.meta
+?? Assets/Materials/ChassisMat_Lab5.mat
+?? Assets/Materials/ChassisMat_Lab5.mat.meta
+?? Assets/Materials/DarkMetalMat_Lab5.mat
+?? Assets/Materials/DarkMetalMat_Lab5.mat.meta
+?? Assets/Materials/GlassMat_Lab5.mat
+?? Assets/Materials/GlassMat_Lab5.mat.meta
+?? Assets/Materials/GridMatMat_Lab5.mat
+?? Assets/Materials/GridMatMat_Lab5.mat.meta
+?? Assets/Materials/HeaterPlateMat_Lab5.mat
+?? Assets/Materials/HeaterPlateMat_Lab5.mat.meta
+?? Assets/Materials/HeaterRimMat_Lab5.mat
+?? Assets/Materials/HeaterRimMat_Lab5.mat.meta
+?? Assets/Materials/HologramBorderMat_Lab5.mat
+?? Assets/Materials/HologramBorderMat_Lab5.mat.meta
+?? Assets/Materials/HologramGlassMat_Lab5.mat
+?? Assets/Materials/HologramGlassMat_Lab5.mat.meta
+?? Assets/Materials/IndicatorMat_Lab5.mat
+?? Assets/Materials/IndicatorMat_Lab5.mat.meta
+?? Assets/Materials/InstrumentMat_Lab2.mat
+?? Assets/Materials/InstrumentMat_Lab2.mat.meta
+?? Assets/Materials/KnobMat_Lab5.mat
+?? Assets/Materials/KnobMat_Lab5.mat.meta
+?? Assets/Materials/LEDMat_Lab5.mat
+?? Assets/Materials/LEDMat_Lab5.mat.meta
+?? Assets/Materials/Lab5_VolumeProfile.asset
+?? Assets/Materials/Lab5_VolumeProfile.asset.meta
+?? Assets/Materials/MetalMat_Lab5.mat
+?? Assets/Materials/MetalMat_Lab5.mat.meta
+?? Assets/Materials/NotebookCoverMat_Lab5.mat
+?? Assets/Materials/NotebookCoverMat_Lab5.mat.meta
+?? Assets/Materials/NotebookPageMat_Lab5.mat
+?? Assets/Materials/NotebookPageMat_Lab5.mat.meta
+?? Assets/Materials/PenBodyMat_Lab5.mat
+?? Assets/Materials/PenBodyMat_Lab5.mat.meta
+?? Assets/Materials/PenTipMat_Lab5.mat
+?? Assets/Materials/PenTipMat_Lab5.mat.meta
+?? Assets/Materials/RubberFeetMat_Lab5.mat
+?? Assets/Materials/RubberFeetMat_Lab5.mat.meta
+?? Assets/Materials/SocketBoxMat_Lab5.mat
+?? Assets/Materials/SocketBoxMat_Lab5.mat.meta
+?? Assets/Materials/SugarMat_Lab5.mat
+?? Assets/Materials/SugarMat_Lab5.mat.meta
+?? Assets/Materials/SwitchBezelMat_Lab5.mat
+?? Assets/Materials/SwitchBezelMat_Lab5.mat.meta
+?? Assets/Materials/SwitchLeverMat_Lab5.mat
+?? Assets/Materials/SwitchLeverMat_Lab5.mat.meta
+?? Assets/Materials/TabletScreenMat_Lab5.mat
+?? Assets/Materials/TabletScreenMat_Lab5.mat.meta
+?? Assets/Materials/ThermometerRedMat_Lab5.mat
+?? Assets/Materials/ThermometerRedMat_Lab5.mat.meta
+?? Assets/Materials/WaterMat_Lab5.mat
+?? Assets/Materials/WaterMat_Lab5.mat.meta
+?? Assets/Plugins.meta
+?? Assets/Plugins/
+?? Assets/Scenes/Boot.unity
+?? Assets/Scenes/Boot.unity.meta
+?? Assets/Scenes/Lab5_3D.unity
+?? Assets/Scenes/Lab5_3D.unity.meta
+?? Assets/Screenshots/boot-splash-polish-final-v2.png
+?? Assets/Screenshots/boot-splash-polish-final-v2.png.meta
+?? Assets/Screenshots/boot-splash-polish-final.png
+?? Assets/Screenshots/boot-splash-polish-final.png.meta
+?? Assets/Screenshots/boot-splash-polish-pass.png
+?? Assets/Screenshots/boot-splash-polish-pass.png.meta
+?? Assets/Screenshots/boot-splash-two-logos-brightened-final.png
+?? Assets/Screenshots/boot-splash-two-logos-brightened-final.png.meta
+?? Assets/Screenshots/boot-splash-two-logos-brightened-subtle.png
+?? Assets/Screenshots/boot-splash-two-logos-brightened-subtle.png.meta
+?? Assets/Screenshots/boot-splash-two-logos-brightened.png
+?? Assets/Screenshots/boot-splash-two-logos-brightened.png.meta
+?? Assets/Screenshots/boot-splash-two-logos-contained-inline.png
+?? Assets/Screenshots/boot-splash-two-logos-contained-inline.png.meta
+?? Assets/Screenshots/boot-splash-two-logos-contained.png
+?? Assets/Screenshots/boot-splash-two-logos-contained.png.meta
+?? Assets/Screenshots/boot-splash-two-logos-gap-polished.png
+?? Assets/Screenshots/boot-splash-two-logos-gap-polished.png.meta
+?? Assets/Screenshots/boot-splash-two-logos-no-glow.png
+?? Assets/Screenshots/boot-splash-two-logos-no-glow.png.meta
+?? Assets/Screenshots/boot-splash-two-logos-preview.png
+?? Assets/Screenshots/boot-splash-two-logos-preview.png.meta
+?? Assets/Screenshots/boot-splash-usm-apex-logo-final-lit.png
+?? Assets/Screenshots/boot-splash-usm-apex-logo-final-lit.png.meta
+?? Assets/Screenshots/boot-splash-usm-apex-logo-final.png
+?? Assets/Screenshots/boot-splash-usm-apex-logo-final.png.meta
+?? Assets/Screenshots/boot-splash-usm-apex-logo.png
+?? Assets/Screenshots/boot-splash-usm-apex-logo.png.meta
+?? Assets/Screenshots/main-menu-account-logged-in-polished-final-v2.png
+?? Assets/Screenshots/main-menu-account-logged-in-polished-final-v2.png.meta
+?? Assets/Screenshots/main-menu-account-logged-in-polished-final.png
+?? Assets/Screenshots/main-menu-account-logged-in-polished-final.png.meta
+?? Assets/Screenshots/main-menu-account-logged-in-polished-locked.png
+?? Assets/Screenshots/main-menu-account-logged-in-polished-locked.png.meta
+?? Assets/Screenshots/main-menu-account-logged-in-polished-v2.png
+?? Assets/Screenshots/main-menu-account-logged-in-polished-v2.png.meta
+?? Assets/Screenshots/main-menu-account-logged-in-polished-wide.png
+?? Assets/Screenshots/main-menu-account-logged-in-polished-wide.png.meta
+?? Assets/Screenshots/main-menu-account-logged-in-polished.png
+?? Assets/Screenshots/main-menu-account-logged-in-polished.png.meta
+?? Assets/Screenshots/main-menu-account-logged-in-profile-clean.png
+?? Assets/Screenshots/main-menu-account-logged-in-profile-clean.png.meta
+?? Assets/Screenshots/main-menu-account-logged-in-profile-final.png
+?? Assets/Screenshots/main-menu-account-logged-in-profile-final.png.meta
+?? Assets/Screenshots/main-menu-account-logged-in-profile-play.png
+?? Assets/Screenshots/main-menu-account-logged-in-profile-play.png.meta
+?? Assets/Screenshots/main-menu-account-logged-in-profile.png
+?? Assets/Screenshots/main-menu-account-logged-in-profile.png.meta
+?? Assets/Screenshots/main-menu-account-panel-polished-v3.png
+?? Assets/Screenshots/main-menu-account-panel-polished-v3.png.meta
+?? Assets/Screenshots/main-menu-home-nav-button.png
+?? Assets/Screenshots/main-menu-home-nav-button.png.meta
+?? Assets/Screenshots/main-menu-professor-guide-phase1.png
+?? Assets/Screenshots/main-menu-professor-guide-phase1.png.meta
+?? Assets/Screenshots/main-menu-professor-guide-phase2-after-overlay.png
+?? Assets/Screenshots/main-menu-professor-guide-phase2-after-overlay.png.meta
+?? Assets/Screenshots/main-menu-professor-guide-phase2-final.png
+?? Assets/Screenshots/main-menu-professor-guide-phase2-final.png.meta
+?? Assets/Screenshots/main-menu-professor-guide-phase2-polished.png
+?? Assets/Screenshots/main-menu-professor-guide-phase2-polished.png.meta
+?? Assets/Screenshots/main-menu-professor-guide-phase2-visible.png
+?? Assets/Screenshots/main-menu-professor-guide-phase2-visible.png.meta
+?? Assets/Screenshots/main-menu-professor-guide-phase2.png
+?? Assets/Screenshots/main-menu-professor-guide-phase2.png.meta
+?? Assets/Screenshots/main-menu-sign-in-opens-account.png
+?? Assets/Screenshots/main-menu-sign-in-opens-account.png.meta
+?? Assets/Screenshots/mainmenu-now.png
+?? Assets/Screenshots/mainmenu-now.png.meta
+?? Assets/Screenshots/screenshot-20260703-074120.png
+?? Assets/Screenshots/screenshot-20260703-074120.png.meta
+?? Assets/Screenshots/screenshot-20260703-074924.png
+?? Assets/Screenshots/screenshot-20260703-074924.png.meta
+?? Assets/Screenshots/screenshot-20260703-075200.png
+?? Assets/Screenshots/screenshot-20260703-075200.png.meta
+?? Assets/Screenshots/screenshot-20260703-075429.png
+?? Assets/Screenshots/screenshot-20260703-075429.png.meta
+?? Assets/Screenshots/screenshot-20260703-201921.png
+?? Assets/Screenshots/screenshot-20260703-201921.png.meta
+?? Assets/Screenshots/screenshot-20260710-013954.png
+?? Assets/Screenshots/screenshot-20260710-013954.png.meta
+?? Assets/Screenshots/studio-splash-boot-preview-1.png
+?? Assets/Screenshots/studio-splash-boot-preview-1.png.meta
+?? Assets/Screenshots/studio-splash-boot-preview-2.png
+?? Assets/Screenshots/studio-splash-boot-preview-2.png.meta
+?? Assets/Screenshots/studio-splash-boot-preview.png
+?? Assets/Screenshots/studio-splash-boot-preview.png.meta
+?? Assets/Screenshots/studio-splash-usm-apex-preview-v2.png
+?? Assets/Screenshots/studio-splash-usm-apex-preview-v2.png.meta
+?? Assets/Screenshots/studio-splash-usm-apex-preview.png
+?? Assets/Screenshots/studio-splash-usm-apex-preview.png.meta
+?? Assets/Screenshots/studio-splash-usm-preview.png
+?? Assets/Screenshots/studio-splash-usm-preview.png.meta
+?? Assets/Script/3d/InteractiveNotebookLab5.cs
+?? Assets/Script/3d/InteractiveNotebookLab5.cs.meta
+?? Assets/Script/3d/Lab1TutorialManager.cs
+?? Assets/Script/3d/Lab1TutorialManager.cs.meta
+?? Assets/Script/3d/Lab2TutorialManager.cs
+?? Assets/Script/3d/Lab2TutorialManager.cs.meta
+?? Assets/Script/3d/Lab5IntroCamera.cs
+?? Assets/Script/3d/Lab5IntroCamera.cs.meta
+?? Assets/Script/3d/Lab5TutorialManager.cs
+?? Assets/Script/3d/Lab5TutorialManager.cs.meta
+?? Assets/Script/3d/QuizManagerLab5.cs
+?? Assets/Script/3d/QuizManagerLab5.cs.meta
+?? Assets/Script/3d/SolubilityAudio3D.cs
+?? Assets/Script/3d/SolubilityAudio3D.cs.meta
+?? Assets/Script/3d/SolubilityGraph3D.cs
+?? Assets/Script/3d/SolubilityGraph3D.cs.meta
+?? Assets/Script/3d/SolubilityHeaterPowerSwitch3D.cs
+?? Assets/Script/3d/SolubilityHeaterPowerSwitch3D.cs.meta
+?? Assets/Script/3d/SolubilityManager3D.cs
+?? Assets/Script/3d/SolubilityManager3D.cs.meta
+?? Assets/Script/3d/SolubilityThermometer3D.cs
+?? Assets/Script/3d/SolubilityThermometer3D.cs.meta
+?? Assets/Script/3d/Universal3DLabTutorial.cs
+?? Assets/Script/3d/Universal3DLabTutorial.cs.meta
+?? Assets/Script/AchievementManager.cs
+?? Assets/Script/AchievementManager.cs.meta
+?? Assets/Script/AmaliCardProgressUI.cs
+?? Assets/Script/AmaliCardProgressUI.cs.meta
+?? Assets/Script/AmaliPanelStatsUI.cs
+?? Assets/Script/AmaliPanelStatsUI.cs.meta
+?? Assets/Script/DisplayGameVersion.cs
+?? Assets/Script/DisplayGameVersion.cs.meta
+?? Assets/Script/EconomyManager.cs
+?? Assets/Script/EconomyManager.cs.meta
+?? Assets/Script/Editor/AchievementSceneSetup.cs
+?? Assets/Script/Editor/AchievementSceneSetup.cs.meta
+?? Assets/Script/Editor/AmaliPanelOverhaulSetup.cs
+?? Assets/Script/Editor/AmaliPanelOverhaulSetup.cs.meta
+?? Assets/Script/Editor/Lab1_3D_Setup.cs
+?? Assets/Script/Editor/Lab1_3D_Setup.cs.meta
+?? Assets/Script/Editor/Lab5_3D_Setup.cs
+?? Assets/Script/Editor/Lab5_3D_Setup.cs.meta
+?? Assets/Script/Editor/LoginSceneSetup.cs
+?? Assets/Script/Editor/LoginSceneSetup.cs.meta
+?? Assets/Script/Editor/MainMenuAccountPanelSetup.cs
+?? Assets/Script/Editor/MainMenuAccountPanelSetup.cs.meta
+?? Assets/Script/Editor/MainMenuHomeNavButtonSetup.cs
+?? Assets/Script/Editor/MainMenuHomeNavButtonSetup.cs.meta
+?? Assets/Script/Editor/MainMenuLoggedInAccountPanelSetup.cs
+?? Assets/Script/Editor/MainMenuLoggedInAccountPanelSetup.cs.meta
+?? Assets/Script/Editor/MainMenuProfessorGuideSetup.cs
+?? Assets/Script/Editor/MainMenuProfessorGuideSetup.cs.meta
+?? Assets/Script/Editor/MainMenuSceneSetup.cs
+?? Assets/Script/Editor/MainMenuSceneSetup.cs.meta
+?? Assets/Script/Editor/MainMenuSessionStatusSetup.cs
+?? Assets/Script/Editor/MainMenuSessionStatusSetup.cs.meta
+?? Assets/Script/Editor/OpeningSequenceSetup.cs
+?? Assets/Script/Editor/OpeningSequenceSetup.cs.meta
+?? Assets/Script/Editor/SettingsPanelOverhaulSetup.cs
+?? Assets/Script/Editor/SettingsPanelOverhaulSetup.cs.meta
+?? Assets/Script/Editor/StudioSplashBootSetup.cs
+?? Assets/Script/Editor/StudioSplashBootSetup.cs.meta
+?? Assets/Script/LoginManager.cs
+?? Assets/Script/LoginManager.cs.meta
+?? Assets/Script/MainMenuAccountPanelController.cs
+?? Assets/Script/MainMenuAccountPanelController.cs.meta
+?? Assets/Script/MainMenuProfessorGuide.cs
+?? Assets/Script/MainMenuProfessorGuide.cs.meta
+?? Assets/Script/MainMenuSessionStatusUI.cs
+?? Assets/Script/MainMenuSessionStatusUI.cs.meta
+?? Assets/Script/OpeningSequenceController.cs
+?? Assets/Script/OpeningSequenceController.cs.meta
+?? Assets/Script/ProfessorDialogueLine.cs
+?? Assets/Script/ProfessorDialogueLine.cs.meta
+?? Assets/Script/ProfessorGuideHoverPrompt.cs
+?? Assets/Script/ProfessorGuideHoverPrompt.cs.meta
+?? Assets/Script/SettingsManagerUI.cs
+?? Assets/Script/SettingsManagerUI.cs.meta
+?? Assets/Script/Startup.meta
+?? Assets/Script/Startup/
+?? Assets/Textures/CameraIcon.png
+?? Assets/Textures/CameraIcon.png.meta
+?? Assets/Textures/CameraIcon_AAA.png
+?? Assets/Textures/CameraIcon_AAA.png.meta
+?? Assets/Textures/CameraIcon_Outline.png
+?? Assets/Textures/CameraIcon_Outline.png.meta
+?? Assets/Textures/CameraIcon_Premium.png
+?? Assets/Textures/CameraIcon_Premium.png.meta
+?? "Assets/UI Flat/blurred_classroom_bg.png"
+?? "Assets/UI Flat/blurred_classroom_bg.png.meta"
+?? "Assets/UI Flat/classroom_bg.png"
+?? "Assets/UI Flat/classroom_bg.png.meta"
+?? "Assets/UI Flat/node_icon.png"
+?? "Assets/UI Flat/node_icon.png.meta"
+?? "Assets/UI Flat/vlab_account_icon.png"
+?? "Assets/UI Flat/vlab_account_icon.png.meta"
+?? "Assets/UI Flat/vlab_account_icon_keyed.png"
+?? "Assets/UI Flat/vlab_account_icon_keyed.png.meta"
+?? "Assets/_Recovery/0 (17).unity"
+?? "Assets/_Recovery/0 (17).unity.meta"
+?? "Assets/_Recovery/0 (18).unity"
+?? "Assets/_Recovery/0 (18).unity.meta"
+?? "Assets/_Recovery/0 (19).unity"
+?? "Assets/_Recovery/0 (19).unity.meta"
+?? "Assets/_Recovery/0 (20).unity"
+?? "Assets/_Recovery/0 (20).unity.meta"
+?? Docs/
+?? HistoryImplementations/
+?? Logo/
+?? ProjectSettings/Packages/
+?? ProjectSettings/PhysicsCoreProjectSettings2D.asset
+?? ProjectSettings/ProjectAuditorSettings.asset
+?? "Publish/E-Lab Prime_Data/Managed/Microsoft.CodeAnalysis.CSharp.dll"
+?? "Publish/E-Lab Prime_Data/Managed/Microsoft.CodeAnalysis.dll"
+?? "Publish/E-Lab Prime_Data/Managed/System.Buffers.dll"
+?? "Publish/E-Lab Prime_Data/Managed/System.Collections.Immutable.dll"
+?? "Publish/E-Lab Prime_Data/Managed/System.Reflection.Metadata.dll"
+?? "Publish/E-Lab Prime_Data/Managed/System.Text.Encoding.CodePages.dll"
+?? "Publish/E-Lab Prime_Data/Managed/System.Threading.Tasks.Extensions.dll"
+?? "Publish/E-Lab Prime_Data/Managed/Unity.Cinemachine.dll"
+?? "Publish/E-Lab Prime_Data/Managed/Unity.ProBuilder.Csg.dll"
+?? "Publish/E-Lab Prime_Data/Managed/Unity.ProBuilder.KdTree.dll"
+?? "Publish/E-Lab Prime_Data/Managed/Unity.ProBuilder.Poly2Tri.dll"
+?? "Publish/E-Lab Prime_Data/Managed/Unity.ProBuilder.Stl.dll"
+?? "Publish/E-Lab Prime_Data/Managed/Unity.ProBuilder.dll"
+?? "Publish/E-Lab Prime_Data/Managed/Unity.Splines.dll"
+?? "Publish/E-Lab Prime_Data/Managed/Unity.VisualEffectGraph.Runtime.dll"
+?? "Publish/E-Lab Prime_Data/Managed/glTFast.Documentation.Examples.dll"
+?? "Publish/E-Lab Prime_Data/Managed/glTFast.Export.dll"
+?? "Publish/E-Lab Prime_Data/Managed/glTFast.Newtonsoft.dll"
+?? "Publish/E-Lab Prime_Data/Managed/glTFast.dll"
+?? "Publish/E-Lab Prime_Data/Managed/glTFast.dots.dll"
+?? "Publish/E-Lab Prime_Data/level16"
+?? "Publish/E-Lab Prime_Data/level17"
+?? "Publish/E-Lab Prime_Data/sharedassets0.resource"
+?? "Publish/E-Lab Prime_Data/sharedassets1.resource"
+?? "Publish/E-Lab Prime_Data/sharedassets14.resource"
+?? "Publish/E-Lab Prime_Data/sharedassets15.resource"
+?? "Publish/E-Lab Prime_Data/sharedassets16.assets"
+?? "Publish/E-Lab Prime_Data/sharedassets16.assets.resS"
+?? "Publish/E-Lab Prime_Data/sharedassets17.assets"
+?? "Publish/E-Lab Prime_Data/sharedassets17.assets.resS"
+?? "Publish/E-Lab Prime_Data/sharedassets4.assets.resS"
+?? "Publish/E-Lab Prime_Data/sharedassets4.resource"
+?? "Publish/E-Lab Prime_Data/sharedassets6.assets.resS"
+?? Publish/ELab14hb.zip
+?? Publish/ELab15hb.zip
+?? Publish/Elab10hb.zip
+?? Publish/Elab7gb.rar
+?? Tools/
+?? output/
+?? tmp/

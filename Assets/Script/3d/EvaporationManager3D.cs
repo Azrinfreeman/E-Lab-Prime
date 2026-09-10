@@ -81,6 +81,7 @@ public class EvaporationManager3D : MonoBehaviour
     public Vector3 fanRotationAxis = new Vector3(0, 0, 1); 
 
     private bool isEvaporationStarted = false;
+    public bool IsEvaporationStarted => isEvaporationStarted;
     private float elapsedTime = 0f;
     private float currentRate = 0f;
     private MaterialPropertyBlock bulbPropBlock;
@@ -98,6 +99,7 @@ public class EvaporationManager3D : MonoBehaviour
     private TMPro.TextMeshProUGUI areaLabelText;
     private float lastSnappedTemp = 0.0f;
     private bool isHeaterPowerOn = false;
+    public bool IsHeaterPowerOn => isHeaterPowerOn;
 
     void Start()
     {

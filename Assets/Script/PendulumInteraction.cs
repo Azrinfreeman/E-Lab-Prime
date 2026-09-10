@@ -299,6 +299,17 @@ public class PendulumInteraction : MonoBehaviour
                 if (row.periodText != null) row.periodText.text = T.ToString("F2");
                 if (row.periodSquaredText != null) row.periodSquaredText.text = T2.ToString("F3");
 
+                if (PlayerPrefs.GetInt("Lab1_3D_Completed", 0) == 0)
+                {
+                    if (EconomyManager.Instance != null)
+                    {
+                        EconomyManager.Instance.AddXP(500);
+                        EconomyManager.Instance.AddCredits(100);
+                    }
+                }
+                PlayerPrefs.SetInt("Lab1_3D_Completed", 1);
+                PlayerPrefs.Save();
+
                 if (saveButton != null) saveButton.interactable = false;
                 return; 
             }

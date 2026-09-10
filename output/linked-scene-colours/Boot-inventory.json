@@ -1,0 +1,355 @@
+{
+  "images": [
+    {
+      "path": "StudioSplashCanvas/Background",
+      "color": "04080EFF",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BackgroundGlow",
+      "color": "2EC4B502",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/ScienceGridVertical_0",
+      "color": "2EC4B509",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/ScienceGridVertical_1",
+      "color": "2EC4B509",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/ScienceGridVertical_2",
+      "color": "2EC4B509",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/ScienceGridVertical_3",
+      "color": "2EC4B509",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/ScienceGridVertical_4",
+      "color": "2EC4B509",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/ScienceGridVertical_5",
+      "color": "2EC4B509",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/ScienceGridVertical_6",
+      "color": "2EC4B509",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/ScienceGridVertical_7",
+      "color": "2EC4B509",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/ScienceGridVertical_8",
+      "color": "2EC4B509",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/ScienceGridHorizontal_0",
+      "color": "2EC4B508",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/ScienceGridHorizontal_1",
+      "color": "2EC4B508",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/ScienceGridHorizontal_2",
+      "color": "2EC4B508",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/ScienceGridHorizontal_3",
+      "color": "2EC4B508",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/ScienceGridHorizontal_4",
+      "color": "2EC4B508",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_0",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_1",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_2",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_3",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_4",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_5",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_6",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_7",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_8",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_9",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_10",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_11",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_12",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_13",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_14",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_15",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_16",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/BootParticle_17",
+      "color": "2EC4B514",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/SoftVignette",
+      "color": "0000004C",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/PrimaryScanLine",
+      "color": "2EC4B524",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/SecondaryScanLineA",
+      "color": "2EC4B524",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/SecondaryScanLineB",
+      "color": "2EC4B517",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/LogoGroup/LogoHalo",
+      "color": "2EC4B50A",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/LogoGroup/LogoClarityPlate",
+      "color": "B8FFF013",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/LogoGroup/PrimaryLogoImage",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Branding/StudioSplash/Textures/pelangi_logo.png",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/LogoGroup/SecondaryLogoImage",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Branding/StudioSplash/Textures/USM APEX-Hor-R.png",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/LogoGroup/LogoSheen",
+      "color": "FFFFFF00",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_0",
+      "color": "2EC4B529",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_1",
+      "color": "2EC4B529",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_2",
+      "color": "2EC4B529",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_3",
+      "color": "2EC4B529",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_4",
+      "color": "2EC4B529",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_5",
+      "color": "2EC4B529",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_6",
+      "color": "2EC4B529",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_7",
+      "color": "2EC4B529",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_8",
+      "color": "2EC4B529",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_9",
+      "color": "2EC4B529",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_10",
+      "color": "2EC4B529",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/SegmentedProgressRoot/ProgressSegment_11",
+      "color": "2EC4B529",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/ProgressTrack",
+      "color": "FFFFFF0E",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/ProgressTrack/ProgressFill",
+      "color": "2EC4B540",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "StudioSplashCanvas/FadeCurtain",
+      "color": "000000FF",
+      "sprite": "",
+      "active": true
+    }
+  ],
+  "scripts": [
+    "Assets/Script/Startup/StudioSplashController.cs"
+  ]
+}

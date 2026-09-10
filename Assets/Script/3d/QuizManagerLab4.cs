@@ -71,13 +71,25 @@ public class QuizManagerLab4 : MonoBehaviour
 
         if (isCorrect)
         {
-            if (feedbackText != null) feedbackText.text = "<color=green>Betul! Suhu, luas permukaan dan kelajuan angin meningkatkan kadar penyejatan.</color>";
+            if (feedbackText != null) KidFriendlySceneTheme.SetFeedback(feedbackText, "<color=green>Betul! Suhu, luas permukaan dan kelajuan angin meningkatkan kadar penyejatan.</color>");
+            
+            if (PlayerPrefs.GetInt("Lab4_3D_Completed", 0) == 0)
+            {
+                if (EconomyManager.Instance != null)
+                {
+                    EconomyManager.Instance.AddXP(500);
+                    EconomyManager.Instance.AddCredits(100);
+                }
+            }
+            PlayerPrefs.SetInt("Lab4_3D_Completed", 1);
+            PlayerPrefs.Save();
+
             // Hide the quiz automatically after 4 seconds
             Invoke("HideQuiz", 4f); 
         }
         else
         {
-            if (feedbackText != null) feedbackText.text = "<color=red>Salah. Sila perhatikan graf dan rekod semula.</color>";
+            if (feedbackText != null) KidFriendlySceneTheme.SetFeedback(feedbackText, "<color=red>Salah. Sila perhatikan graf dan rekod semula.</color>");
         }
     }
 

@@ -1,0 +1,11 @@
+{
+  "generator": "edge-tts",
+  "voice": "ms-MY-OsmanNeural",
+  "rate": "-8%",
+  "synthetic": true,
+  "lines": [
+    "Mari mulakan eksperimen penyejatan. Klik suis pemanas untuk menghidupkannya.",
+    "Laraskan faktor penyejatan menggunakan kawalan yang disediakan. Mulakan eksperimen dan perhatikan perubahan sehingga eksperimen selesai.",
+    "Buka buku amali. Rekodkan pemerhatian anda dan jawab kuiz berdasarkan hasil eksperimen."
+  ]
+}

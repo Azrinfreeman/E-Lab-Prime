@@ -1418,7 +1418,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'AMALI 2: KADAR KETERLARUTAN'
+  m_text: 'AMALI 5: KADAR KETERLARUTAN'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7587c9f229cbb0541a65144cc9302b45, type: 2}
   m_sharedMaterial: {fileID: 6990927113124736628, guid: 7587c9f229cbb0541a65144cc9302b45, type: 2}

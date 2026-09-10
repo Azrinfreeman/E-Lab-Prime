@@ -1,0 +1,57 @@
+{
+  "images": [
+    {
+      "path": "Canvas/background",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/classroom_bg.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/background/Overlay",
+      "color": "00000026",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "Canvas/background/PanelLogin",
+      "color": "1A2633B2",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/background/PanelLogin/Header",
+      "color": "00000000",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/background/PanelLogin/Body/InputField (TMP)",
+      "color": "000000E6",
+      "sprite": "Assets/UI Flat/pb_rect_rounded.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/background/PanelLogin/Body/InputField (TMP) (1)",
+      "color": "000000E6",
+      "sprite": "Assets/UI Flat/pb_rect_rounded.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/background/PanelLogin/Body/Button",
+      "color": "33D973FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/background/PanelLogin/Body/Button (1)",
+      "color": "00000000",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": true
+    }
+  ],
+  "scripts": [
+    "Assets/Script/MenuManager.cs",
+    "Assets/Script/LoginManager.cs",
+    "Assets/Script/BouncyButton.cs"
+  ]
+}

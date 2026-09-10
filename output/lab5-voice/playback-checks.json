@@ -1,0 +1,17 @@
+{
+  "initialCue": 0,
+  "clips": [
+    8.664,
+    8.472,
+    8.088
+  ],
+  "replay": true,
+  "muteStops": true,
+  "unmutedReplay": true,
+  "stop": true,
+  "textOverflow": [
+    false,
+    false,
+    false
+  ]
+}

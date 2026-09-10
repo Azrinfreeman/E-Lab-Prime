@@ -127,6 +127,9 @@ public class JamRandik : MonoBehaviour
 
         sedangBerjalan = true;
 
+        var tut = FindAnyObjectByType<Lab1TutorialManager>();
+        if (tut != null) tut.CompleteStep3();
+
         // Baca kedudukan awal bola ketika butang MULA ditekan supaya kiraan sangat tepat
         if (pemberatBandul != null && pivotTiang != null)
         {

@@ -1,0 +1,62 @@
+[
+  {
+    "Scene": "Boot",
+    "EventFieldCount": 0,
+    "EventFieldsUnchanged": true,
+    "ObjectIDsUnchanged": true
+  },
+  {
+    "Scene": "Login",
+    "EventFieldCount": 14,
+    "EventFieldsUnchanged": true,
+    "ObjectIDsUnchanged": true
+  },
+  {
+    "Scene": "Lab1_3D",
+    "EventFieldCount": 111,
+    "EventFieldsUnchanged": true,
+    "ObjectIDsUnchanged": true
+  },
+  {
+    "Scene": "Lab2_3D",
+    "EventFieldCount": 153,
+    "EventFieldsUnchanged": true,
+    "ObjectIDsUnchanged": false
+  },
+  {
+    "Scene": "Lab3_3D",
+    "EventFieldCount": 332,
+    "EventFieldsUnchanged": true,
+    "ObjectIDsUnchanged": false
+  },
+  {
+    "Scene": "Lab4_3D",
+    "EventFieldCount": 104,
+    "EventFieldsUnchanged": true,
+    "ObjectIDsUnchanged": false
+  },
+  {
+    "Scene": "Lab5_3D",
+    "EventFieldCount": 95,
+    "EventFieldsUnchanged": true,
+    "ObjectIDsUnchanged": true
+  },
+  {
+    "Scene": "Lab6_0",
+    "EventFieldCount": 106,
+    "EventFieldsUnchanged": true,
+    "ObjectIDsUnchanged": true
+  },
+  {
+    "Scene": "Lab7",
+    "EventFieldCount": 79,
+    "EventFieldsUnchanged": true,
+    "ObjectIDsUnchanged": true
+  },
+  {
+    "Scene": "Lab8",
+    "EventFieldCount": 79,
+    "EventFieldsUnchanged": true,
+    "ObjectIDsUnchanged": true
+  }
+]

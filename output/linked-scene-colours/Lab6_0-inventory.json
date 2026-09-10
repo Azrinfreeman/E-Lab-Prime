@@ -1,0 +1,270 @@
+{
+  "images": [
+    {
+      "path": "Canvas/bg",
+      "color": "868686FF",
+      "sprite": "Assets/Pictures/background.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Title/Image",
+      "color": "467B8DFF",
+      "sprite": "Assets/UI Flat/btn_light_blue.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Middle/Right/Image",
+      "color": "D1D1D17A",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Middle/Right/Title/Image",
+      "color": "467B8DFF",
+      "sprite": "Assets/UI Flat/btn_light_blue.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Pemanas_Visual",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Pictures/pemanas.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Pemanas_Visual/Lampu_Pemanas",
+      "color": "FF8100FF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Basin_Visual",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Pictures/6/asset60.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Basin_Visual/Water_Mask",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Pictures/6/lab6_assets.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Basin_Visual/Water_Mask/Air_Visual",
+      "color": "32D8FFC6",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Basin_Visual/Water_Mask/Air_Visual/Water_Surface",
+      "color": "72BFCE58",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Basin_Visual/BunsenBurner",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Pictures/lab3_asset.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1/BikarUdara",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Pictures/6/lab6_assets.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Middle/1/BikarUdara/Bikar_Mask",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Pictures/6/lab6_assets.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Middle/1/BikarUdara/Bikar_Mask/Air_Visual",
+      "color": "32D8FFC6",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Middle/1/BikarUdara/Bikar_Mask/Air_Visual/Water_Surface",
+      "color": "72BFCE58",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Candle1",
+      "color": "FFFFFF60",
+      "sprite": "Assets/Pictures/6/asset60 1.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Candle1/Candle1 (1)",
+      "color": "FFFFFF17",
+      "sprite": "Assets/Pictures/6/asset60 1.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Basin_Visual (1)",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Pictures/6/asset60 1.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Middle/Button (3)",
+      "color": "DE5753FF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Bottom/GasOxygenBtn",
+      "color": "70C767FF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Bottom/Button (1)",
+      "color": "F9D146FF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Bottom/GasHydrogenBtn",
+      "color": "6FC767FF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/SuccessPanel_Amali2/bg",
+      "color": "65656581",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/SuccessPanel_Amali2/bg/QuizPanel",
+      "color": "8F8F8FFF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/SuccessPanel_Amali2/bg/QuizPanel/ButtonC",
+      "color": "70C767FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/SuccessPanel_Amali2/bg/QuitButton",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_close_flat_alt.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen",
+      "color": "292929FF",
+      "sprite": "Assets/Pictures/background.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Background",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Fill Area/Fill",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (1)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (2)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (3)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (4)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (5)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (6)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (7)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (8)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (9)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (10)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (11)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/ExitButton",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_close_flat_alt.png",
+      "active": false
+    }
+  ],
+  "scripts": [
+    "Assets/Script/CylinderDrag.cs",
+    "Assets/Script/GasLabelDragUI.cs",
+    "Assets/Script/LoadingSpinner.cs",
+    "Assets/Script/FadingDotsSpinner.cs",
+    "Assets/Script/ReturnToMainMenu.cs",
+    "Assets/Script/AirCompositionManager.cs"
+  ]
+}

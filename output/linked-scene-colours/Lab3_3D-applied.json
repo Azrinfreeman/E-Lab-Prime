@@ -1,0 +1,800 @@
+[
+  {
+    "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel/Btn_FrontView",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE9FF"
+  },
+  {
+    "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel/Btn_RightView",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE9FF"
+  },
+  {
+    "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel/Btn_LeftView",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE9FF"
+  },
+  {
+    "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel/Btn_BehindView",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE9FF"
+  },
+  {
+    "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel/Btn_TopView",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE9FF"
+  },
+  {
+    "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel/Btn_TextbookView",
+    "id": 5,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE9FF"
+  },
+  {
+    "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel/Btn_ThermoA",
+    "id": 6,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel/Btn_ThermoB",
+    "id": 7,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Main Camera/Lab3_3DTablet/TabletCanvas/ControlPanel",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Main Camera/Lab3_3DTablet/TabletCanvas/ControlPanel/Btn_StartHeating",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Main Camera/Lab3_3DTablet/TabletCanvas/Btn_ResetExperiment",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FF4936FF"
+  },
+  {
+    "path": "Canvas/bg",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Title/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE9FF"
+  },
+  {
+    "path": "Canvas/bg/Title/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Middle/TempInfo",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Pemanas_Visual",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Pemanas_Visual/Lampu_Pemanas",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FF8100FF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/Water_Mask",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/Water_Mask/Air_Visual",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "32D8FFC6"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/Water_Mask/Air_Visual/Water_Surface",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "72BFCE58"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/BunsenBurner",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/BunsenBurner/fire",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FF0000FF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/Temp",
+    "id": 2,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFF77"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/TempInfo",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/TempInfo/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/TempInfo/Text (TMP) (1)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Info",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Info/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Middle/1 (1)/Pemanas_Visual",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1 (1)/Pemanas_Visual/Lampu_Pemanas",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FF8100FF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1 (1)/Bikar_Visual",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1 (1)/Bikar_Visual/Water_Mask",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1 (1)/Bikar_Visual/Water_Mask/Air_Visual",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "32D8FFC6"
+  },
+  {
+    "path": "Canvas/bg/Middle/1 (1)/Bikar_Visual/Water_Mask/Air_Visual/Water_Surface",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "72BFCE58"
+  },
+  {
+    "path": "Canvas/bg/Middle/1 (1)/Bikar_Visual/BunsenBurner",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1 (1)/Bikar_Visual/BunsenBurner/fire",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FF0000FF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1 (1)/Bikar_Visual/Temp",
+    "id": 2,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFF77"
+  },
+  {
+    "path": "Canvas/bg/Middle/1 (1)/TempInfo",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1 (1)/TempInfo/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Middle/1 (1)/TempInfo/Text (TMP) (1)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Middle/1 (1)/Info",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1 (1)/Info/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Bottom/WarningText",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Bottom/Button",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/bg/Bottom/Button/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Bottom/Button (1)",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/bg/Bottom/Button (1)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Bottom/Button (2)",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FF4936FF"
+  },
+  {
+    "path": "Canvas/bg/Bottom/Button (2)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Right/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/Right/Image/Garam",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Right/Title/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE9FF"
+  },
+  {
+    "path": "Canvas/bg/Right/Title/Image/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/ViewGraph",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/bg/ViewGraph/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/ViewGraph/Image/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "B8B8B8FF"
+  },
+  {
+    "path": "Canvas/GraphWindow/bg",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/GraphWindow/GraphMain",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/GraphWindow/GraphMain/Button",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/GraphWindow/GraphMain/Button/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/GraphWindow/GraphMain/GraphPlotArea",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/GraphWindow/GraphMain/Bottom/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "020816FF"
+  },
+  {
+    "path": "Canvas/GraphWindow/GraphMain/Bottom/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/GraphWindow/GraphMain/Bottom/Text (TMP) (1)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/GraphWindow/GraphMain/Bottom/Text (TMP) (2)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/GraphWindow/GraphMain/Bottom/Text (TMP) (3)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/GraphWindow/GraphMain/Bottom/Text (TMP) (4)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/GraphWindow/GraphMain/Bottom/Text (TMP) (5)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/GraphWindow/GraphMain/Left/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "020816FF"
+  },
+  {
+    "path": "Canvas/GraphWindow/GraphMain/Left/Text (TMP) (5)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/GraphWindow/GraphMain/Left/Text (TMP) (6)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "D2EDFFFF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Background",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "ABC0D4FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Fill Area/Fill",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86FFF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Text_Peratusan",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (1)",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (2)",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (3)",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (4)",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (5)",
+    "id": 5,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (6)",
+    "id": 6,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (7)",
+    "id": 7,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (8)",
+    "id": 8,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (9)",
+    "id": 9,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (10)",
+    "id": 10,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (11)",
+    "id": 11,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/ExitButton",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/Quiz/bg",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/Quiz/bg/QuizPanel",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/Quiz/bg/QuizPanel/QuestionText",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/Quiz/bg/QuizPanel/ButtonA",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/Quiz/bg/QuizPanel/ButtonA/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/Quiz/bg/QuizPanel/ButtonB",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/Quiz/bg/QuizPanel/ButtonB/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/Quiz/bg/QuizPanel/ButtonC",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/Quiz/bg/QuizPanel/ButtonC/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/Quiz/bg/QuizPanel/FeedbackText",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/NotebookLogPanel",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/NotebookLogPanel/Outline",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "0208161F"
+  },
+  {
+    "path": "Canvas/NotebookLogPanel/InputA",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/NotebookLogPanel/InputB",
+    "id": 6,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "B8E0FFFF"
+  },
+  {
+    "path": "Canvas/NotebookLogPanel/Buttons/Btn_SubmitLog",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/NotebookLogPanel/Buttons/Btn_CloseLog",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FF4936FF"
+  },
+  {
+    "path": "Canvas/Lab3_SummaryPanel",
+    "id": 5,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/Lab3_SummaryPanel/Btn_CloseSummary",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FF4936FF"
+  },
+  {
+    "path": "Canvas/RotateCameraButton",
+    "id": 6,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/RotateCameraButton/CameraIcon",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/RotateCameraButton/CameraLabel",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Main Camera/Lab3_3DTablet/TabletCasing",
+    "kind": "DecorativeMaterialVariant",
+    "action": "colour"
+  },
+  {
+    "path": "Main Camera/Lab3_3DTablet/TabletScreen",
+    "kind": "DecorativeMaterialVariant",
+    "action": "colour"
+  },
+  {
+    "path": "Classroom Environment/Floor",
+    "kind": "DecorativeMaterialVariant",
+    "action": "colour"
+  },
+  {
+    "path": "Classroom Environment/Wall_Front",
+    "kind": "DecorativeMaterialVariant",
+    "action": "colour"
+  },
+  {
+    "path": "Classroom Environment/Wall_Back",
+    "kind": "DecorativeMaterialVariant",
+    "action": "colour"
+  },
+  {
+    "path": "Classroom Environment/Wall_Left",
+    "kind": "DecorativeMaterialVariant",
+    "action": "colour"
+  },
+  {
+    "path": "Classroom Environment/Wall_Right",
+    "kind": "DecorativeMaterialVariant",
+    "action": "colour"
+  },
+  {
+    "path": "Classroom Environment/Desk_1",
+    "kind": "DecorativeMaterialVariant",
+    "action": "colour"
+  },
+  {
+    "path": "Classroom Environment/Desk_2",
+    "kind": "DecorativeMaterialVariant",
+    "action": "colour"
+  },
+  {
+    "path": "Classroom Environment/TeacherDeskTop",
+    "kind": "DecorativeMaterialVariant",
+    "action": "colour"
+  },
+  {
+    "path": "Classroom Environment/Cabinet_1",
+    "kind": "DecorativeMaterialVariant",
+    "action": "colour"
+  },
+  {
+    "path": "Classroom Environment/Cabinet_2",
+    "kind": "DecorativeMaterialVariant",
+    "action": "colour"
+  },
+  {
+    "path": "Lab3_Notebook/NotebookCover",
+    "kind": "DecorativeMaterialVariant",
+    "action": "colour"
+  }
+]

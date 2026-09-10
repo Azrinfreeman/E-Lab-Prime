@@ -5,6 +5,7 @@ public class ElectrolysisManager3D : MonoBehaviour
 {
     [Header("Quiz Completion")]
     public GameObject successPanel;
+    public Lab2TextbookResults textbookResults;
     private int correctLabelsCount = 0;
 
     [Header("3D Water Level Transforms (Pivot at bottom)")]
@@ -193,6 +194,7 @@ public class ElectrolysisManager3D : MonoBehaviour
 
     public void ResetExperiment()
     {
+        if (textbookResults != null) textbookResults.ShowResults(false);
         Debug.Log("Reset Simulasi button clicked! Reloading the entire scene for a clean slate...");
         UnityEngine.SceneManagement.SceneManager.LoadScene(
             UnityEngine.SceneManagement.SceneManager.GetActiveScene().name
@@ -233,7 +235,10 @@ public class ElectrolysisManager3D : MonoBehaviour
 
     private void AutoLabelAndComplete()
     {
+        if (textbookResults != null) textbookResults.ShowResults(true);
         Debug.Log("Electrolysis complete! Auto-labeling tubes...");
+        var tut = Object.FindAnyObjectByType<Lab2TutorialManager>();
+        if (tut != null) tut.CompleteStep2();
 
         // Hide any 2D Drag UI buttons from the screen
         GasLabelDragUI[] oldLabels = Object.FindObjectsByType<GasLabelDragUI>(
@@ -285,10 +290,23 @@ public class ElectrolysisManager3D : MonoBehaviour
     private void ShowSuccessPopup()
     {
         Debug.Log("Fungsi ShowSuccessPopup() dijalankan.");
+        var tut = Object.FindAnyObjectByType<Lab2TutorialManager>();
+        if (tut != null) tut.CompleteStep3();
         if (successPanel != null)
         {
             successPanel.SetActive(true);
             Debug.Log("Success Panel diaktifkan!");
+
+            if (PlayerPrefs.GetInt("Lab2_3D_Completed", 0) == 0)
+            {
+                if (EconomyManager.Instance != null)
+                {
+                    EconomyManager.Instance.AddXP(500);
+                    EconomyManager.Instance.AddCredits(100);
+                }
+            }
+            PlayerPrefs.SetInt("Lab2_3D_Completed", 1);
+            PlayerPrefs.Save();
 
             if (bubblesAnode != null)
                 bubblesAnode.SetActive(false);
@@ -517,3 +535,5 @@ public class ElectrolysisManager3D : MonoBehaviour
         audio.PlayOneShot(clip, 0.6f);
     }
 }
+
+

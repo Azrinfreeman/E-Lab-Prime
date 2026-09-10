@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "scene": "Assets/Scenes/Lab5_3D.unity",
+  "panel": "Lab5VoiceCanvas/Lab5VoiceCard",
+  "path": "E:\\Projects\\2026Projject\\Prime\\E-Lab Prime\\output\\agent-captures\\988b1468391d4653b975fa9af7bc0fdb\\capture.png",
+  "manifest": "E:\\Projects\\2026Projject\\Prime\\E-Lab Prime\\output\\agent-captures\\988b1468391d4653b975fa9af7bc0fdb\\manifest.json",
+  "width": 2560,
+  "height": 1440,
+  "message": "Captured native Game view. Visually inspect the file before accepting it.",
+  "finishedUtc": "2026-09-10T09:15:12.1247393Z"
+}

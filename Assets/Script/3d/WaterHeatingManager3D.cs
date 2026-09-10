@@ -338,7 +338,7 @@ public class WaterHeatingManager3D : MonoBehaviour
             UnityEngine.UI.Text legacyText = startHeatBtnObj.GetComponentInChildren<UnityEngine.UI.Text>();
             if (legacyText != null) legacyText.text = "BUKA GAS";
             UnityEngine.UI.Image btnImage = startHeatBtnObj.GetComponent<UnityEngine.UI.Image>();
-            if (btnImage != null) btnImage.color = new Color(0.15f, 0.7f, 0.15f);
+            if (btnImage != null) btnImage.color = KidFriendlySceneTheme.Active(this) ? KidFriendlyPalette.Yellow : new Color(0.15f, 0.7f, 0.15f);
         }
     }
 
@@ -423,7 +423,7 @@ public class WaterHeatingManager3D : MonoBehaviour
             UnityEngine.UI.Text legacyText = startHeatBtnObj.GetComponentInChildren<UnityEngine.UI.Text>();
             if (legacyText != null) legacyText.text = IsGasOn ? "TUTUP GAS" : "BUKA GAS";
             UnityEngine.UI.Image btnImage = startHeatBtnObj.GetComponent<UnityEngine.UI.Image>();
-            if (btnImage != null) btnImage.color = IsGasOn ? new Color(0.8f, 0.2f, 0.2f) : new Color(0.15f, 0.7f, 0.15f);
+            if (btnImage != null) btnImage.color = KidFriendlySceneTheme.Active(this) ? (IsGasOn ? KidFriendlyPalette.Coral : KidFriendlyPalette.Yellow) : (IsGasOn ? new Color(0.8f, 0.2f, 0.2f) : new Color(0.15f, 0.7f, 0.15f));
         }
 
         // Toggle Lighter visual guide indicator
@@ -547,6 +547,17 @@ public class WaterHeatingManager3D : MonoBehaviour
         {
             successPanel.SetActive(true);
         }
+
+        if (PlayerPrefs.GetInt("Lab3_3D_Completed", 0) == 0)
+        {
+            if (EconomyManager.Instance != null)
+            {
+                EconomyManager.Instance.AddXP(500);
+                EconomyManager.Instance.AddCredits(100);
+            }
+        }
+        PlayerPrefs.SetInt("Lab3_3D_Completed", 1);
+        PlayerPrefs.Save();
     }
 
     private void UpdateTempUI()

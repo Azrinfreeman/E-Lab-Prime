@@ -14,7 +14,7 @@ public class PhysicalSwitch3D : MonoBehaviour
     [Header("Highlight Settings")]
     public Color highlightColor = new Color(0.2f, 0.8f, 1.0f, 1.0f); // Glowing Cyan
     
-    private bool isOn = false;
+    public bool isOn = false;
     private Renderer[] renderers;
     private Color[] originalColors;
     private AudioSource audioSource;
@@ -132,6 +132,8 @@ public class PhysicalSwitch3D : MonoBehaviour
     public void TurnOn()
     {
         isOn = true;
+        var tut = Object.FindAnyObjectByType<Lab2TutorialManager>();
+        if (tut != null) tut.CompleteStep1();
         
         // Remove hover highlights once turned ON
         OnMouseExit();

@@ -1,0 +1,606 @@
+{
+  "images": [
+    {
+      "path": "Canvas/bg",
+      "color": "FFFFFF26",
+      "sprite": "Assets/Pictures/background_.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Title/Image",
+      "color": "467B8DFF",
+      "sprite": "Assets/UI Flat/btn_light_blue.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Middle/Protractor",
+      "color": "FFFFFF84",
+      "sprite": "Assets/Pictures/1/experiment1.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/Retort (1)",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Pictures/1/experiment1.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Left",
+      "color": "FFFFFF26",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Left/Title (1)/Image",
+      "color": "467B8DFF",
+      "sprite": "Assets/UI Flat/btn_light_blue.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Left/JamRandik",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Pictures/stopwatch.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Left/JamRandik/TitikPusingan/needle",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Pictures/needle.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Left/Bottom/StartButton",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_green_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Left/Bottom/HentiButton",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_orange_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Left/Bottom/PadamButton",
+      "color": "FF0000FF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Left/Bottom/SimpanButton",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_green_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Right",
+      "color": "FFFFFF26",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Right/Title (1)/Image",
+      "color": "467B8DFF",
+      "sprite": "Assets/UI Flat/btn_light_blue.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Right/GameObject/Slider/Background",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Right/GameObject/Slider/Fill Area/Fill",
+      "color": "64ACD2FF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Right/GameObject/Slider/Handle Slide Area/Handle",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Right/Bottom/Button",
+      "color": "29638DFF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Right/Bottom/Button (1)",
+      "color": "29638DFF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/TimeTableButton",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/TimeTableButton/Image",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/TimeTableButton/Image/Image",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Pictures/Gemini_Generated_Image_27tu2j27tu2j27tu.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/ViewGraph",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/ViewGraph/Image",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/ViewGraph/Image/Image",
+      "color": "B8B8B8FF",
+      "sprite": "Assets/Pictures/Gemini_Generated_Image_6q302f6q302f6q30.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg",
+      "color": "FFFFFF26",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image",
+      "color": "000000FF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg",
+      "color": "FFFFFF26",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (1)",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (1)/Image (2)",
+      "color": "000000FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (1)/Image (3)",
+      "color": "373636FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (1)/Image (4)",
+      "color": "000000FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (1)/Image (5)",
+      "color": "383535FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (2)",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (2)/Image (2)",
+      "color": "000000FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (2)/Image (3)",
+      "color": "373636FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (2)/Image (4)",
+      "color": "000000FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (2)/Image (5)",
+      "color": "383535FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (3)",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (3)/Image (2)",
+      "color": "000000FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (3)/Image (3)",
+      "color": "373636FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (3)/Image (4)",
+      "color": "000000FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (3)/Image (5)",
+      "color": "383535FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (4)",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (4)/Image (2)",
+      "color": "000000FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (4)/Image (3)",
+      "color": "373636FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (4)/Image (4)",
+      "color": "000000FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (4)/Image (5)",
+      "color": "383535FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (5)",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (5)/Image (2)",
+      "color": "000000FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (5)/Image (3)",
+      "color": "373636FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (5)/Image (4)",
+      "color": "000000FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (5)/Image (5)",
+      "color": "383535FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (6)",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (6)/Image (2)",
+      "color": "000000FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (6)/Image (3)",
+      "color": "373636FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (6)/Image (4)",
+      "color": "000000FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/bg/Image/bg/Image (6)/Image (5)",
+      "color": "383535FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Jadual/ExitButton",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_close_flat_alt.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/GraphWindow/GraphPlotArea",
+      "color": "7A7A7AFF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Dot_20",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Dot_40",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Dot_60",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Dot_80",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Dot_100",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Line_1",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Line_2",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Line_3",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/GraphWindow/GraphPlotArea/GameObject/Line_4",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/GraphWindow/GraphPlotArea/Bottom/Image",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/GraphWindow/GraphPlotArea/Left/Image",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/GraphWindow/Button",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_close_flat_alt.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen",
+      "color": "292929FF",
+      "sprite": "Assets/Pictures/background.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Background",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Fill Area/Fill",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (1)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (2)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (3)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (4)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (5)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (6)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (7)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (8)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (9)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (10)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (11)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/ExitButton",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_close_flat_alt.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/CameraDragArea",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_light_blue.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/CameraDragArea/CameraIcon",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Textures/CameraIcon_Premium.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/NotebookLogPanel",
+      "color": "F5F2E6FF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/NotebookLogPanel/Outline",
+      "color": "0000000D",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/NotebookLogPanel/InputA",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/NotebookLogPanel/InputB",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/NotebookLogPanel/Buttons/Btn_SubmitLog",
+      "color": "1F9440FF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/NotebookLogPanel/Buttons/Btn_CloseLog",
+      "color": "A63333FF",
+      "sprite": "",
+      "active": false
+    }
+  ],
+  "scripts": [
+    "Assets/Script/3d/CameraParallax.cs",
+    "Assets/Script/3d/JamRandik.cs",
+    "Assets/Script/LoadingSpinner.cs",
+    "Assets/Script/FadingDotsSpinner.cs",
+    "Assets/Script/ReturnToMainMenu.cs",
+    "Assets/Script/CameraDragArea.cs",
+    "Assets/Script/3d/TooltipHover3D.cs",
+    "Assets/Script/3d/DragBandul.cs",
+    "Assets/Script/3d/PengawalPanjangTali.cs",
+    "Assets/Script/3d/PengurusGraf.cs",
+    "Assets/Script/3d/PengurusDataAmali.cs",
+    "Assets/Script/3d/Lab1TutorialManager.cs"
+  ]
+}

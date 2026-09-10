@@ -53,11 +53,11 @@ public class InteractiveNotebookLab4 : MonoBehaviour
 
         if (leftPageTextMesh != null)
         {
-            leftPageTextMesh.text = "OBJEKTIF\n\nMengkaji faktor yang\nmempengaruhi kadar\npenyejatan air.";
+            leftPageTextMesh.text = ExperimentTextbookContent.Left(4);
         }
         if (rightPageTextMesh != null)
         {
-            rightPageTextMesh.text = "PEMERHATIAN\n\nSila jalankan eksperimen\ndan perhatikan perubahan.\n\nKlik di sini untuk\nmerekod pemerhatian\ndan menjawab kuiz.";
+            rightPageTextMesh.text = ExperimentTextbookContent.Right(4);
         }
     }
 
@@ -94,7 +94,7 @@ public class InteractiveNotebookLab4 : MonoBehaviour
             if (feedbackText != null)
             {
                 feedbackText.text = isLoggingCompleted ? "" : "Adakah anda telah memerhatikan kesan suhu, luas permukaan, kelajuan angin dan kelembapan?";
-                feedbackText.color = new Color(0.2f, 0.2f, 0.2f);
+                feedbackText.color = KidFriendlySceneTheme.Feedback(this, new Color(0.2f, 0.2f, 0.2f));
             }
         }
     }
@@ -117,13 +117,13 @@ public class InteractiveNotebookLab4 : MonoBehaviour
         
         if (rightPageTextMesh != null)
         {
-            rightPageTextMesh.text = "PEMERHATIAN DIREKOD";
+            rightPageTextMesh.text = ExperimentTextbookContent.Recorded(4);
         }
 
         if (feedbackText != null)
         {
             feedbackText.text = "Rekod Berjaya! Menyalakan kuiz...";
-            feedbackText.color = new Color(0.1f, 0.6f, 0.2f);
+            feedbackText.color = KidFriendlySceneTheme.Feedback(this, new Color(0.1f, 0.6f, 0.2f));
         }
         
         if (tutorialManager != null) tutorialManager.CompleteStep2();
@@ -196,3 +196,4 @@ public class InteractiveNotebookLab4 : MonoBehaviour
         return clip;
     }
 }
+

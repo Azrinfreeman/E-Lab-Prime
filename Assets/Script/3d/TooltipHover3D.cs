@@ -78,6 +78,10 @@ public class TooltipHover3D : MonoBehaviour
         isHovering = true;
         if (tooltipUI != null)
         {
+            bool bright = KidFriendlySceneTheme.Active(this);
+            tooltipUI.GetComponent<Image>().color = bright ? KidFriendlyPalette.Surface : new Color(0.05f, 0.05f, 0.05f, 0.95f);
+            tooltipUI.GetComponent<Outline>().effectColor = bright ? KidFriendlyPalette.Blue : new Color(0f, 0.8f, 1f, 1f);
+            textMesh.color = bright ? KidFriendlyPalette.Ink : Color.white;
             tooltipUI.SetActive(true);
             textMesh.text = tooltipText;
             canvasGroup.alpha = 1f;

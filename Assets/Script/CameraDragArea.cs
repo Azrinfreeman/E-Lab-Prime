@@ -266,14 +266,17 @@ public class CameraDragArea : MonoBehaviour, IDragHandler, IPointerDownHandler, 
         GameObject notebook = GameObject.Find("Lab2_Notebook");
         if (notebook == null) notebook = GameObject.Find("Lab3_Notebook");
         if (notebook == null) notebook = GameObject.Find("Lab4_Notebook");
+        if (notebook == null) notebook = GameObject.Find("Lab5_Notebook");
 
         if (notebook != null)
         {
+            var bookLayout = notebook.GetComponent<ScienceNotebookReadingLayout>();
+            if (bookLayout != null) bookLayout.SetReading(true);
             Vector3 notebookPos = notebook.transform.position;
             Vector3 forward = notebook.transform.forward;
             Vector3 up = notebook.transform.up;
 
-            targetPosition = notebookPos + up * 0.4f - forward * 0.15f;
+            targetPosition = notebookPos + up * (bookLayout != null ? 0.46f : 0.4f) - forward * 0.15f;
             targetRotation = Quaternion.LookRotation(notebookPos - targetPosition);
             isTransitioning = true;
 
@@ -281,11 +284,12 @@ public class CameraDragArea : MonoBehaviour, IDragHandler, IPointerDownHandler, 
             GameObject tablet = GameObject.Find("Lab3_3DTablet");
             if (tablet == null) tablet = GameObject.Find("Lab2_3DTablet");
             if (tablet == null) tablet = GameObject.Find("Lab4_3DTablet");
+            if (tablet == null) tablet = GameObject.Find("Lab5_3DTablet");
             if (tablet != null)
             {
                 // Place very close to camera to completely avoid clipping the notebook (Z=0.08)
                 // Use LookRotation to perfectly face the camera lens to eliminate perspective distortion
-                tablet.transform.localPosition = new Vector3(0.04f, 0.01f, 0.08f);
+                tablet.transform.localPosition = new Vector3(bookLayout != null ? 0.065f : 0.04f, 0.01f, 0.08f);
                 Vector3 dirToCam = -tablet.transform.localPosition.normalized;
                 tablet.transform.localRotation = Quaternion.LookRotation(Vector3.up, dirToCam);
                 tablet.transform.localScale = new Vector3(0.06f, 0.06f, 0.06f);
@@ -363,7 +367,18 @@ public class CameraDragArea : MonoBehaviour, IDragHandler, IPointerDownHandler, 
 
     private void ResetTabletPosition()
     {
-        GameObject tablet = GameObject.Find("Lab3_3DTablet");
+        foreach (var book in Object.FindObjectsByType<ScienceNotebookReadingLayout>(FindObjectsSortMode.None)) book.SetReading(false);
+        GameObject tablet = GameObject.Find("Lab5_3DTablet");
+        if (tablet != null)
+        {
+            // Lab 5 specific coordinates matching setup script
+            tablet.transform.localPosition = new Vector3(0.2004f, -0.0798f, 0.3001f);
+            tablet.transform.localRotation = Quaternion.Euler(-70f, 0f, 15f);
+            tablet.transform.localScale = new Vector3(0.2943f, 0.2943f, 0.2943f);
+            return;
+        }
+
+        tablet = GameObject.Find("Lab3_3DTablet");
         if (tablet != null)
         {
             // Positioned further right and slightly lower to avoid blocking lighter and salt bottle
@@ -425,3 +440,4 @@ public class CameraDragArea : MonoBehaviour, IDragHandler, IPointerDownHandler, 
         }
     }
 }
+

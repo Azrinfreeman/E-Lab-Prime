@@ -19,10 +19,7 @@ public class Lab4_3D_Setup : EditorWindow
     {
         if (EditorSceneManager.GetActiveScene().name != "Lab4_3D")
         {
-            if (!EditorUtility.DisplayDialog("Warning: Wrong Scene", "You are trying to generate Lab 4 inside '" + EditorSceneManager.GetActiveScene().name + "'.\n\nThis will inject Lab 4 objects into your current scene. Are you sure you want to continue?", "Yes, Generate Anyway", "Cancel"))
-            {
-                return;
-            }
+            EditorSceneManager.OpenScene("Assets/Scenes/Lab4_3D.unity", OpenSceneMode.Single);
         }
 
         DestroyDuplicateLights();
@@ -273,6 +270,7 @@ public class Lab4_3D_Setup : EditorWindow
         }
 
         GameObject manager3DObj = manager2DObj != null ? manager2DObj : new GameObject("EvaporationManager");
+        manager3DObj.transform.position = new Vector3(-3.00f, 1.55f, 2.00f);
         if (manager2D != null)
         {
             // Remove 2D component to avoid updates running in parallel
@@ -1012,6 +1010,9 @@ public class Lab4_3D_Setup : EditorWindow
 
         // Mark scene dirty and save
         var activeScene = EditorSceneManager.GetActiveScene();
+        if (KidFriendlySceneTheme.Includes(activeScene)) KidFriendlySceneColourSetup.Apply(activeScene, false);
+        Lab4VoiceSetup.Apply(activeScene);
+        ExperimentTextbookSetup.Apply(activeScene);
         EditorSceneManager.MarkSceneDirty(activeScene);
         EditorSceneManager.SaveScene(activeScene);
 
@@ -1354,31 +1355,60 @@ public class Lab4_3D_Setup : EditorWindow
             GameObject btnObj = new GameObject("RotateCameraButton");
             btnObj.transform.SetParent(canvasObj.transform, false);
             UnityEngine.UI.Image img = btnObj.AddComponent<UnityEngine.UI.Image>();
-            img.color = new Color(0.1f, 0.5f, 0.9f, 0.9f);
+            Sprite btnBlue = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/UI Flat/btn_light_blue.png");
+            img.sprite = btnBlue;
+            img.type = UnityEngine.UI.Image.Type.Sliced;
+            img.color = Color.white;
+            img.pixelsPerUnitMultiplier = 2f;
+            EditorUtility.SetDirty(img);
 
             RectTransform rect = btnObj.GetComponent<RectTransform>();
             rect.anchorMin = new Vector2(0, 0);
             rect.anchorMax = new Vector2(0, 0);
             rect.pivot = new Vector2(0, 0);
             rect.anchoredPosition = new Vector2(20, 20);
-            rect.sizeDelta = new Vector2(150, 150);
+            rect.sizeDelta = new Vector2(90, 90);
 
-            GameObject textObj = new GameObject("Text");
-            textObj.transform.SetParent(btnObj.transform, false);
-            UnityEngine.UI.Text txt = textObj.AddComponent<UnityEngine.UI.Text>();
-            txt.text = "DRAG TO\nROTATE\nCAMERA";
-            txt.alignment = TextAnchor.MiddleCenter;
-            txt.color = Color.white;
-            txt.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
-            txt.fontSize = 20;
-            txt.fontStyle = FontStyle.Bold;
-            txt.raycastTarget = false;
+            // Add CameraIcon inside the button
+            GameObject iconObj = new GameObject("CameraIcon");
+            iconObj.transform.SetParent(btnObj.transform, false);
+            UnityEngine.UI.Image iconImg = iconObj.AddComponent<UnityEngine.UI.Image>();
+            Sprite camSpr = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Textures/CameraIcon_Premium.png");
+            iconImg.sprite = camSpr;
+            iconImg.color = Color.white;
+            iconImg.raycastTarget = false;
+            
+            RectTransform iconRect = iconObj.GetComponent<RectTransform>();
+            iconRect.anchorMin = new Vector2(0.5f, 0.55f);
+            iconRect.anchorMax = new Vector2(0.5f, 0.55f);
+            iconRect.pivot = new Vector2(0.5f, 0.5f);
+            iconRect.anchoredPosition = Vector2.zero;
+            iconRect.sizeDelta = new Vector2(45, 45);
 
-            RectTransform textRect = textObj.GetComponent<RectTransform>();
-            textRect.anchorMin = Vector2.zero;
-            textRect.anchorMax = Vector2.one;
-            textRect.offsetMin = Vector2.zero;
-            textRect.offsetMax = Vector2.zero;
+            // Add CameraLabel text below the icon
+            GameObject labelObj = new GameObject("CameraLabel", typeof(RectTransform));
+            labelObj.transform.SetParent(btnObj.transform, false);
+            
+            RectTransform labelRect = labelObj.GetComponent<RectTransform>();
+            labelRect.anchorMin = new Vector2(0, 0);
+            labelRect.anchorMax = new Vector2(1, 0.32f);
+            labelRect.offsetMin = new Vector2(4, 2);
+            labelRect.offsetMax = new Vector2(-4, 0);
+            
+            TMPro.TextMeshProUGUI labelTmp = labelObj.AddComponent<TMPro.TextMeshProUGUI>();
+            string[] fontAssets = AssetDatabase.FindAssets("FredokaOne SDF t:TMP_FontAsset");
+            if (fontAssets.Length > 0)
+            {
+                labelTmp.font = AssetDatabase.LoadAssetAtPath<TMPro.TMP_FontAsset>(AssetDatabase.GUIDToAssetPath(fontAssets[0]));
+            }
+            labelTmp.text = "KAMERA";
+            labelTmp.fontSize = 12;
+            labelTmp.fontStyle = TMPro.FontStyles.Bold;
+            labelTmp.color = Color.white;
+            labelTmp.alignment = TMPro.TextAlignmentOptions.Center;
+            labelTmp.enableWordWrapping = false;
+            labelTmp.overflowMode = TMPro.TextOverflowModes.Truncate;
+            labelTmp.raycastTarget = false;
 
             CameraDragArea dragScript = btnObj.AddComponent<CameraDragArea>();
             dragScript.rotationSpeed = 0.5f;
@@ -2165,3 +2195,5 @@ public class Lab4_3D_Setup : EditorWindow
     }
 }
 #endif
+
+

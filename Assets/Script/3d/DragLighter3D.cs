@@ -17,6 +17,7 @@ public class DragLighter3D : MonoBehaviour
     private bool hasIgnited = false;
     private float igniteTimer = 0f;
     private Transform indicatorObj;
+    private Vector3 dragOffset;
 
     void Start()
     {
@@ -51,7 +52,14 @@ public class DragLighter3D : MonoBehaviour
         }
 
         isDragging = true;
+        
         distanceToCam = mainCam.WorldToScreenPoint(transform.position).z;
+        Vector3 mouseScreenPos = Input.mousePosition;
+        mouseScreenPos.z = distanceToCam;
+        Vector3 mouseWorldPos = mainCam.ScreenToWorldPoint(mouseScreenPos);
+        
+        // Calculate exact offset without artificial lift for perfect cursor alignment
+        dragOffset = transform.position - mouseWorldPos;
 
         // Hide guide indicator when user starts dragging
         SetIndicatorActive(false);
@@ -65,8 +73,7 @@ public class DragLighter3D : MonoBehaviour
         mouseScreenPos.z = distanceToCam;
         Vector3 mouseWorldPos = mainCam.ScreenToWorldPoint(mouseScreenPos);
         
-        mouseWorldPos.y += dragHeight;
-        transform.position = mouseWorldPos;
+        transform.position = mouseWorldPos + dragOffset;
 
         if (targetBurners != null)
         {

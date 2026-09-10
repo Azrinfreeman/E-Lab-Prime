@@ -18,10 +18,7 @@ public class Lab2_3D_Setup : EditorWindow
     {
         if (UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene().name != "Lab2_3D")
         {
-            if (!UnityEditor.EditorUtility.DisplayDialog("Warning: Wrong Scene", "You are trying to generate Lab 2 inside '" + UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene().name + "'.\n\nThis will inject Lab 2 objects into your current scene. Are you sure you want to continue?", "Yes, Generate Anyway", "Cancel"))
-            {
-                return;
-            }
+            UnityEditor.SceneManagement.EditorSceneManager.OpenScene("Assets/Scenes/Lab2_3D.unity", OpenSceneMode.Single);
         }
 
         DestroyDuplicateLights();
@@ -242,6 +239,7 @@ public class Lab2_3D_Setup : EditorWindow
         Material glassMat = GetOrCreateMaterial("GlassMat_Lab2", new Color(0.9f, 0.93f, 0.96f, 0.24f), true);
         Material waterMat = GetOrCreateMaterial("WaterMat_Lab2", new Color(0.12f, 0.58f, 0.85f, 0.82f), true);
         Material carbonMat = GetOrCreateMaterial("CarbonMat_Lab2", new Color(0.1f, 0.1f, 0.1f, 1f), false);
+        Material instrumentMat = GetOrCreateMaterial("InstrumentMat_Lab2", new Color(0.75f, 0.8f, 0.85f, 1f), false);
         Material baseMat = GetOrCreateMaterial("BaseMat_Lab2", new Color(0.8f, 0.8f, 0.8f, 1f), false);
         Material batteryMat = GetOrCreateMaterial("BatteryMat_Lab2", new Color(0.9f, 0.2f, 0.2f, 1f), false);
         Material redMat = GetOrCreateMaterial("RedMat_Lab2", new Color(1f, 0f, 0f, 1f), false);
@@ -274,8 +272,8 @@ public class Lab2_3D_Setup : EditorWindow
             MeshFilter mf = beaker.AddComponent<MeshFilter>();
             mf.sharedMesh = GenerateOpenBeakerMesh();
             MeshRenderer mr = beaker.AddComponent<MeshRenderer>();
-            beaker.transform.position = experimentOffset + new Vector3(0, 0.695f, 0); // Pushed down slightly to prevent bottom Z-fighting
-            beaker.transform.localScale = new Vector3(1.2f, 0.7f, 1.2f);
+            beaker.transform.position = experimentOffset + new Vector3(0, 0.485f, 0); // Pushed down slightly to prevent bottom Z-fighting
+            beaker.transform.localScale = new Vector3(0.84f, 0.49f, 0.84f);
             mr.sharedMaterial = glassMat;
         }
 
@@ -321,7 +319,7 @@ public class Lab2_3D_Setup : EditorWindow
             lightComp.range = 1.5f;
             lightComp.intensity = 2.5f;
         }
-        glowLight.transform.position = experimentOffset + new Vector3(0f, 0.75f, 0f); // Positioned inside the beaker water
+        glowLight.transform.position = experimentOffset + new Vector3(0f, 0.525f, 0f); // Positioned inside the beaker water
 
         // No Base Stand - we sit on the table
 
@@ -329,16 +327,16 @@ public class Lab2_3D_Setup : EditorWindow
         GameObject anodeTube = GameObject.Find("TestTube_Anode (Oxygen)");
         if (anodeTube == null)
         {
-            anodeTube = CreateTestTube("TestTube_Anode (Oxygen)", experimentOffset + new Vector3(-0.35f, 1.4f, 0), tubeGlassMat);
-            anodeTube.transform.localScale = new Vector3(0.16f, 0.6f, 0.16f);
+            anodeTube = CreateTestTube("TestTube_Anode (Oxygen)", experimentOffset + new Vector3(-0.25f, 0.98f, 0), tubeGlassMat);
+            anodeTube.transform.localScale = new Vector3(0.11f, 0.42f, 0.11f);
         }
         
         GameObject anodeWaterPivot = GameObject.Find("AnodeWaterPivot");
         if (anodeWaterPivot == null)
         {
             anodeWaterPivot = new GameObject("AnodeWaterPivot");
-            anodeWaterPivot.transform.position = experimentOffset + new Vector3(-0.35f, 0.8f, 0);
-            anodeWaterPivot.transform.localScale = new Vector3(0.16f, 1.0f, 0.16f);
+            anodeWaterPivot.transform.position = experimentOffset + new Vector3(-0.25f, 0.56f, 0);
+            anodeWaterPivot.transform.localScale = new Vector3(0.11f, 0.7f, 0.11f);
             
             GameObject anodeWater = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
             anodeWater.name = "WaterVolume";
@@ -354,8 +352,8 @@ public class Lab2_3D_Setup : EditorWindow
         {
             anodeElectrode = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
             anodeElectrode.name = "Electrode_Anode";
-            anodeElectrode.transform.position = experimentOffset + new Vector3(-0.35f, 1.0f, 0); 
-            anodeElectrode.transform.localScale = new Vector3(0.06f, 0.30f, 0.06f); 
+            anodeElectrode.transform.position = experimentOffset + new Vector3(-0.25f, 0.7f, 0); 
+            anodeElectrode.transform.localScale = new Vector3(0.04f, 0.21f, 0.04f); 
             anodeElectrode.GetComponent<MeshRenderer>().sharedMaterial = carbonMat;
             DestroyImmediate(anodeElectrode.GetComponent<Collider>());
         }
@@ -365,16 +363,16 @@ public class Lab2_3D_Setup : EditorWindow
         GameObject cathodeTube = GameObject.Find("TestTube_Cathode (Hydrogen)");
         if (cathodeTube == null)
         {
-            cathodeTube = CreateTestTube("TestTube_Cathode (Hydrogen)", experimentOffset + new Vector3(0.35f, 1.4f, 0), tubeGlassMat);
-            cathodeTube.transform.localScale = new Vector3(0.16f, 0.6f, 0.16f);
+            cathodeTube = CreateTestTube("TestTube_Cathode (Hydrogen)", experimentOffset + new Vector3(0.25f, 0.98f, 0), tubeGlassMat);
+            cathodeTube.transform.localScale = new Vector3(0.11f, 0.42f, 0.11f);
         }
         
         GameObject cathodeWaterPivot = GameObject.Find("CathodeWaterPivot");
         if (cathodeWaterPivot == null)
         {
             cathodeWaterPivot = new GameObject("CathodeWaterPivot");
-            cathodeWaterPivot.transform.position = experimentOffset + new Vector3(0.35f, 0.8f, 0);
-            cathodeWaterPivot.transform.localScale = new Vector3(0.16f, 1.0f, 0.16f);
+            cathodeWaterPivot.transform.position = experimentOffset + new Vector3(0.25f, 0.56f, 0);
+            cathodeWaterPivot.transform.localScale = new Vector3(0.11f, 0.7f, 0.11f);
             
             GameObject cathodeWater = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
             cathodeWater.name = "WaterVolume";
@@ -390,8 +388,8 @@ public class Lab2_3D_Setup : EditorWindow
         {
             cathodeElectrode = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
             cathodeElectrode.name = "Electrode_Cathode";
-            cathodeElectrode.transform.position = experimentOffset + new Vector3(0.35f, 1.0f, 0);
-            cathodeElectrode.transform.localScale = new Vector3(0.06f, 0.30f, 0.06f);
+            cathodeElectrode.transform.position = experimentOffset + new Vector3(0.25f, 0.7f, 0);
+            cathodeElectrode.transform.localScale = new Vector3(0.04f, 0.21f, 0.04f);
             cathodeElectrode.GetComponent<MeshRenderer>().sharedMaterial = carbonMat;
             DestroyImmediate(cathodeElectrode.GetComponent<Collider>());
         }
@@ -429,14 +427,49 @@ public class Lab2_3D_Setup : EditorWindow
         {
             ammeter = GameObject.CreatePrimitive(PrimitiveType.Cube);
             ammeter.name = "Ammeter_3D";
-            ammeter.transform.localScale = new Vector3(0.3f, 0.1f, 0.2f);
-            ammeter.GetComponent<MeshRenderer>().sharedMaterial = carbonMat; 
+            ammeter.transform.localScale = new Vector3(0.25f, 0.12f, 0.25f);
+            ammeter.GetComponent<MeshRenderer>().sharedMaterial = instrumentMat; 
+            
+            // Dial Texture Material
+            Material dialMat = null;
+            string[] guids = AssetDatabase.FindAssets("AmmeterDialMat t:Material");
+            if (guids.Length > 0) dialMat = AssetDatabase.LoadAssetAtPath<Material>(AssetDatabase.GUIDToAssetPath(guids[0]));
+            if (dialMat == null) dialMat = new Material(Shader.Find("Standard")) { color = Color.white };
+
+            // Create Slanted Panel
+            GameObject panel = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            panel.name = "DialPanel";
+            panel.transform.SetParent(ammeter.transform);
+            panel.transform.localPosition = new Vector3(0f, 0.6f, 0f);
+            panel.transform.localEulerAngles = new Vector3(15f, 0f, 0f);
+            panel.transform.localScale = new Vector3(0.9f, 0.2f, 0.9f);
+            panel.GetComponent<MeshRenderer>().sharedMaterial = instrumentMat;
+
+            // Create Dial Face
+            GameObject dialFace = GameObject.CreatePrimitive(PrimitiveType.Quad);
+            dialFace.name = "DialFace";
+            dialFace.transform.SetParent(panel.transform);
+            dialFace.transform.localPosition = new Vector3(0f, 0.51f, 0.1f);
+            dialFace.transform.localEulerAngles = new Vector3(90f, 0f, 0f);
+            dialFace.transform.localScale = new Vector3(0.8f, 0.8f, 1f);
+            dialFace.GetComponent<MeshRenderer>().sharedMaterial = dialMat;
+            Object.DestroyImmediate(dialFace.GetComponent<Collider>());
+
+            // Create Glass Cover
+            GameObject glass = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            glass.name = "GlassCover";
+            glass.transform.SetParent(panel.transform);
+            glass.transform.localPosition = new Vector3(0f, 0.6f, 0.1f);
+            glass.transform.localEulerAngles = Vector3.zero;
+            glass.transform.localScale = new Vector3(0.85f, 0.05f, 0.85f);
+            glass.GetComponent<MeshRenderer>().sharedMaterial = glassMat;
+            Object.DestroyImmediate(glass.GetComponent<Collider>());
 
             GameObject needle = GameObject.CreatePrimitive(PrimitiveType.Cube);
             needle.name = "AmmeterNeedle";
-            needle.transform.SetParent(ammeter.transform);
-            needle.transform.localPosition = new Vector3(0, 0.6f, 0); 
-            needle.transform.localScale = new Vector3(0.05f, 0.1f, 0.6f);
+            needle.transform.SetParent(panel.transform);
+            needle.transform.localPosition = new Vector3(0f, 0.52f, 0f); 
+            needle.transform.localScale = new Vector3(0.04f, 0.05f, 0.4f);
             needle.GetComponent<MeshRenderer>().sharedMaterial = redMat; 
             
             AmmeterNeedle3D needleScript = ammeter.AddComponent<AmmeterNeedle3D>();
@@ -447,7 +480,6 @@ public class Lab2_3D_Setup : EditorWindow
             
             GameObject textObj = new GameObject("AmmeterText");
             textObj.transform.SetParent(ammeter.transform);
-            // Floating above ammeter facing the camera (-Z) without scale distortion
             Vector3 parentScale = ammeter.transform.localScale;
             float targetWorldScale = 0.15f;
             textObj.transform.localScale = new Vector3(
@@ -455,8 +487,8 @@ public class Lab2_3D_Setup : EditorWindow
                 targetWorldScale / parentScale.y,
                 targetWorldScale / parentScale.z
             );
-            textObj.transform.localPosition = new Vector3(0, 1.2f, -0.6f);
-            textObj.transform.localEulerAngles = new Vector3(0, 0, 0); // Correctly face camera
+            textObj.transform.localPosition = new Vector3(0, 1.8f, 0.4f);
+            textObj.transform.localEulerAngles = new Vector3(0, 0, 0);
             TextMesh tm = textObj.AddComponent<TextMesh>();
             tm.text = "Ammeter (A)";
             tm.characterSize = 0.1f;
@@ -484,7 +516,7 @@ public class Lab2_3D_Setup : EditorWindow
                 {
                     tm.characterSize = 0.1f;
                     tm.fontSize = 72;
-                    tm.color = new Color(0.9f, 0.9f, 0.9f, 1f);
+                    tm.color = new Color(0.1f, 0.1f, 0.15f, 1f);
                 }
             }
         }
@@ -498,7 +530,7 @@ public class Lab2_3D_Setup : EditorWindow
             switch3D = GameObject.CreatePrimitive(PrimitiveType.Cube);
             switch3D.name = "PhysicalSwitch_3D";
             switch3D.transform.localScale = new Vector3(0.2f, 0.1f, 0.3f);
-            switch3D.GetComponent<MeshRenderer>().sharedMaterial = carbonMat; 
+            switch3D.GetComponent<MeshRenderer>().sharedMaterial = instrumentMat; 
             
             GameObject lever = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
             lever.name = "SwitchLever";
@@ -506,7 +538,7 @@ public class Lab2_3D_Setup : EditorWindow
             lever.transform.localPosition = new Vector3(0, 1.0f, -0.4f);
             lever.transform.localEulerAngles = new Vector3(-45, 0, 0);
             lever.transform.localScale = new Vector3(0.2f, 0.8f, 0.2f);
-            lever.GetComponent<MeshRenderer>().sharedMaterial = tubeGlassMat;
+            lever.GetComponent<MeshRenderer>().sharedMaterial = redMat;
             
             PhysicalSwitch3D switchScript = switch3D.AddComponent<PhysicalSwitch3D>();
             switchScript.leverPivot = lever.transform;
@@ -527,12 +559,12 @@ public class Lab2_3D_Setup : EditorWindow
         Vector3 switchPosTerm = switch3D.transform.position + new Vector3(0, 0.1f, -0.1f);
         Vector3 switchNegTerm = switch3D.transform.position + new Vector3(0, 0.1f, 0.1f);
 
-        Vector3 anodeConnect = anodeElectrode.transform.position + new Vector3(0, -0.3f, 0);
-        Vector3 cathodeConnect = cathodeElectrode.transform.position + new Vector3(0, -0.3f, 0);
+        Vector3 anodeConnect = anodeElectrode.transform.position + new Vector3(0, -0.21f, 0);
+        Vector3 cathodeConnect = cathodeElectrode.transform.position + new Vector3(0, -0.21f, 0);
 
         // Wire 1: Battery Neg -> Cathode (Black)
         // Curves up over beaker rim, loops behind the tubes, enters cathode tube from bottom without clipping
-        Vector3 cathodeC1 = negTerminal + new Vector3(0.84f, 2.374f, -0.2f);
+        Vector3 cathodeC1 = negTerminal + new Vector3(0.84f, 1.974f, -0.2f);
         Vector3 cathodeC2 = cathodeConnect + new Vector3(-0.196f, 0.074f, -0.029f);
         CreateCubicBezierWire("Wire_Cathode (Black)", negTerminal, cathodeC1, cathodeC2, cathodeConnect, Color.black);
 
@@ -544,7 +576,7 @@ public class Lab2_3D_Setup : EditorWindow
         
         // Wire 4: Switch Neg -> Anode (Red)
         // Curves up over beaker rim, loops along the left side, enters anode tube from bottom without clipping
-        Vector3 anodeC1 = switchNegTerm + new Vector3(0.1f, 3.0f, -0.1f);
+        Vector3 anodeC1 = switchNegTerm + new Vector3(0.1f, 2.6f, -0.1f);
         Vector3 anodeC2 = anodeConnect + new Vector3(-0.298f, 0.074f, 0.171f); 
         CreateCubicBezierWire("Wire_Anode (Red)", switchNegTerm, anodeC1, anodeC2, anodeConnect, Color.red);
 
@@ -578,7 +610,7 @@ public class Lab2_3D_Setup : EditorWindow
         GameObject joint1Obj = GameObject.CreatePrimitive(PrimitiveType.Cube);
         joint1Obj.name = "Bosshead_RodArm";
         joint1Obj.transform.SetParent(retortStand.transform);
-        joint1Obj.transform.localPosition = new Vector3(0f, 1.8f, 0.95f);
+        joint1Obj.transform.localPosition = new Vector3(0f, 1.25f, 0.95f);
         joint1Obj.transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
         joint1Obj.GetComponent<MeshRenderer>().sharedMaterial = retortMetalMat;
         DestroyImmediate(joint1Obj.GetComponent<Collider>());
@@ -587,7 +619,7 @@ public class Lab2_3D_Setup : EditorWindow
         GameObject armObj = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
         armObj.name = "HorizontalArm";
         armObj.transform.SetParent(retortStand.transform);
-        armObj.transform.localPosition = new Vector3(0f, 1.8f, 0.475f);
+        armObj.transform.localPosition = new Vector3(0f, 1.25f, 0.475f);
         armObj.transform.localScale = new Vector3(0.02f, 0.475f, 0.02f);
         armObj.transform.localEulerAngles = new Vector3(90f, 0f, 0f);
         armObj.GetComponent<MeshRenderer>().sharedMaterial = retortRodMat;
@@ -597,7 +629,7 @@ public class Lab2_3D_Setup : EditorWindow
         GameObject joint2Obj = GameObject.CreatePrimitive(PrimitiveType.Cube);
         joint2Obj.name = "Bosshead_ArmCrossbar";
         joint2Obj.transform.SetParent(retortStand.transform);
-        joint2Obj.transform.localPosition = new Vector3(0f, 1.8f, 0f);
+        joint2Obj.transform.localPosition = new Vector3(0f, 1.25f, 0f);
         joint2Obj.transform.localScale = new Vector3(0.04f, 0.04f, 0.04f);
         joint2Obj.GetComponent<MeshRenderer>().sharedMaterial = retortMetalMat;
         DestroyImmediate(joint2Obj.GetComponent<Collider>());
@@ -606,8 +638,8 @@ public class Lab2_3D_Setup : EditorWindow
         GameObject crossbarObj = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
         crossbarObj.name = "Crossbar";
         crossbarObj.transform.SetParent(retortStand.transform);
-        crossbarObj.transform.localPosition = new Vector3(0f, 1.8f, 0f);
-        crossbarObj.transform.localScale = new Vector3(0.02f, 0.35f, 0.02f);
+        crossbarObj.transform.localPosition = new Vector3(0f, 1.25f, 0f);
+        crossbarObj.transform.localScale = new Vector3(0.02f, 0.25f, 0.02f);
         crossbarObj.transform.localEulerAngles = new Vector3(0f, 0f, 90f);
         crossbarObj.GetComponent<MeshRenderer>().sharedMaterial = retortRodMat;
         DestroyImmediate(crossbarObj.GetComponent<Collider>());
@@ -615,17 +647,17 @@ public class Lab2_3D_Setup : EditorWindow
         // Anode Clamp Ring (Left)
         GameObject anodeClamp = new GameObject("AnodeClamp");
         anodeClamp.transform.SetParent(retortStand.transform);
-        anodeClamp.transform.localPosition = new Vector3(-0.35f, 1.8f, 0f);
+        anodeClamp.transform.localPosition = new Vector3(-0.25f, 1.25f, 0f);
         anodeClamp.transform.localRotation = Quaternion.identity;
         MeshFilter filterA = anodeClamp.AddComponent<MeshFilter>();
-        filterA.sharedMesh = GenerateRingMesh(0.082f, 0.095f, 0.04f, 24);
+        filterA.sharedMesh = GenerateRingMesh(0.055f, 0.068f, 0.04f, 24);
         MeshRenderer rendererA = anodeClamp.AddComponent<MeshRenderer>();
         rendererA.sharedMaterial = retortMetalMat;
 
         // Cathode Clamp Ring (Right)
         GameObject cathodeClamp = new GameObject("CathodeClamp");
         cathodeClamp.transform.SetParent(retortStand.transform);
-        cathodeClamp.transform.localPosition = new Vector3(0.35f, 1.8f, 0f);
+        cathodeClamp.transform.localPosition = new Vector3(0.25f, 1.25f, 0f);
         cathodeClamp.transform.localRotation = Quaternion.identity;
         MeshFilter filterC = cathodeClamp.AddComponent<MeshFilter>();
         filterC.sharedMesh = filterA.sharedMesh;
@@ -947,32 +979,60 @@ public class Lab2_3D_Setup : EditorWindow
             btnObj.transform.SetParent(canvasObj.transform, false);
             
             UnityEngine.UI.Image img = btnObj.AddComponent<UnityEngine.UI.Image>();
-            img.color = new Color(0.1f, 0.5f, 0.9f, 0.9f); // Blue button color
+            Sprite btnBlue = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/UI Flat/btn_light_blue.png");
+            img.sprite = btnBlue;
+            img.type = UnityEngine.UI.Image.Type.Sliced;
+            img.color = Color.white;
+            img.pixelsPerUnitMultiplier = 2f;
+            EditorUtility.SetDirty(img);
             
             RectTransform rect = btnObj.GetComponent<RectTransform>();
             rect.anchorMin = new Vector2(0, 0); // Bottom Left corner
             rect.anchorMax = new Vector2(0, 0);
             rect.pivot = new Vector2(0, 0);
             rect.anchoredPosition = new Vector2(20, 20); // Margin
-            rect.sizeDelta = new Vector2(150, 150); // Square button
+            rect.sizeDelta = new Vector2(90, 90); // Square button
             
-            // Add Text inside the button
-            GameObject textObj = new GameObject("Text");
-            textObj.transform.SetParent(btnObj.transform, false);
-            UnityEngine.UI.Text txt = textObj.AddComponent<UnityEngine.UI.Text>();
-            txt.text = "DRAG TO\nROTATE\nCAMERA";
-            txt.alignment = TextAnchor.MiddleCenter;
-            txt.color = Color.white;
-            txt.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
-            txt.fontSize = 20;
-            txt.fontStyle = FontStyle.Bold;
-            txt.raycastTarget = false; // Prevent text from blocking mouse drag events
+            // Add CameraIcon inside the button
+            GameObject iconObj = new GameObject("CameraIcon");
+            iconObj.transform.SetParent(btnObj.transform, false);
+            UnityEngine.UI.Image iconImg = iconObj.AddComponent<UnityEngine.UI.Image>();
+            Sprite camSpr = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Textures/CameraIcon_Premium.png");
+            iconImg.sprite = camSpr;
+            iconImg.color = Color.white;
+            iconImg.raycastTarget = false;
             
-            RectTransform textRect = textObj.GetComponent<RectTransform>();
-            textRect.anchorMin = Vector2.zero;
-            textRect.anchorMax = Vector2.one;
-            textRect.offsetMin = Vector2.zero;
-            textRect.offsetMax = Vector2.zero;
+            RectTransform iconRect = iconObj.GetComponent<RectTransform>();
+            iconRect.anchorMin = new Vector2(0.5f, 0.55f);
+            iconRect.anchorMax = new Vector2(0.5f, 0.55f);
+            iconRect.pivot = new Vector2(0.5f, 0.5f);
+            iconRect.anchoredPosition = Vector2.zero;
+            iconRect.sizeDelta = new Vector2(45, 45);
+
+            // Add CameraLabel text below the icon
+            GameObject labelObj = new GameObject("CameraLabel", typeof(RectTransform));
+            labelObj.transform.SetParent(btnObj.transform, false);
+            
+            RectTransform labelRect = labelObj.GetComponent<RectTransform>();
+            labelRect.anchorMin = new Vector2(0, 0);
+            labelRect.anchorMax = new Vector2(1, 0.32f);
+            labelRect.offsetMin = new Vector2(4, 2);
+            labelRect.offsetMax = new Vector2(-4, 0);
+            
+            TMPro.TextMeshProUGUI labelTmp = labelObj.AddComponent<TMPro.TextMeshProUGUI>();
+            string[] fontAssets = AssetDatabase.FindAssets("FredokaOne SDF t:TMP_FontAsset");
+            if (fontAssets.Length > 0)
+            {
+                labelTmp.font = AssetDatabase.LoadAssetAtPath<TMPro.TMP_FontAsset>(AssetDatabase.GUIDToAssetPath(fontAssets[0]));
+            }
+            labelTmp.text = "KAMERA";
+            labelTmp.fontSize = 12;
+            labelTmp.fontStyle = TMPro.FontStyles.Bold;
+            labelTmp.color = Color.white;
+            labelTmp.alignment = TMPro.TextAlignmentOptions.Center;
+            labelTmp.enableWordWrapping = false;
+            labelTmp.overflowMode = TMPro.TextOverflowModes.Truncate;
+            labelTmp.raycastTarget = false;
             
             // Attach the drag script to this specific button
             CameraDragArea dragScript = btnObj.AddComponent<CameraDragArea>();
@@ -1243,12 +1303,27 @@ public class Lab2_3D_Setup : EditorWindow
         // Setup Tooltips for Lab Equipment
         SetupTooltips();
 
+        // Setup Universal Tutorial System
+        SetupTutorialOverlay();
+
         // Mark active scene dirty and save it so changes persist in Play Mode
         var activeScene = EditorSceneManager.GetActiveScene();
+        if (KidFriendlySceneTheme.Includes(activeScene)) KidFriendlySceneColourSetup.Apply(activeScene, false);
+        Lab2VoiceSetup.Apply(activeScene);
+        Lab2TextbookSetup.Apply(activeScene);
         EditorSceneManager.MarkSceneDirty(activeScene);
         EditorSceneManager.SaveScene(activeScene);
 
         Debug.Log("3D Lab 2 Generated Successfully! Environment and camera positioned.");
+    }
+
+    private static void SetupTutorialOverlay()
+    {
+        GameObject existingTut = GameObject.Find("Lab2TutorialManager");
+        if (existingTut != null) DestroyImmediate(existingTut);
+
+        GameObject tutorialManagerObj = new GameObject("Lab2TutorialManager");
+        tutorialManagerObj.AddComponent<Lab2TutorialManager>();
     }
 
     private static void SetupTooltips()
@@ -2192,10 +2267,10 @@ public class Lab2_3D_Setup : EditorWindow
         int height = 512;
         Texture2D tex = new Texture2D(width, height, TextureFormat.RGBA32, false);
 
-        // Base color: dark teal-green
-        Color baseColor = new Color(0.06f, 0.28f, 0.24f, 1f);
-        Color fineGridColor = new Color(0.08f, 0.36f, 0.30f, 1f);
-        Color thickGridColor = new Color(0.1f, 0.42f, 0.35f, 1f);
+        // Base color: brighter teal-green
+        Color baseColor = new Color(0.12f, 0.45f, 0.38f, 1f);
+        Color fineGridColor = new Color(0.18f, 0.52f, 0.44f, 1f);
+        Color thickGridColor = new Color(0.24f, 0.60f, 0.50f, 1f);
         Color borderColor = new Color(0.85f, 0.85f, 0.8f, 1f);
 
         // Fill base
@@ -2316,3 +2391,5 @@ public class Lab2_3D_Setup : EditorWindow
     }
 }
 #endif
+
+

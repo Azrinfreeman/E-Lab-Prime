@@ -1,0 +1,1 @@
+Local Windows speech synthesis was unavailable, so voice_*.wav files are valid silent placeholders. Replace these files with final professor voice clips using the same filenames.

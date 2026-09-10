@@ -22,6 +22,10 @@ public class InteractiveNotebook3D : MonoBehaviour
     private bool isLoggingCompleted = false;
     private bool buttonsAreBound = false;
 
+    private MeshRenderer coverRenderer;
+    private Material coverMaterialInstance;
+    private Color originalCoverColor;
+
     void Start()
     {
         audioSource = gameObject.AddComponent<AudioSource>();
@@ -79,7 +83,39 @@ public class InteractiveNotebook3D : MonoBehaviour
         // Make sure the 3D right page does not display final values yet
         if (rightPageTextMesh != null)
         {
-            rightPageTextMesh.text = "PEMERHATIAN\n\nTakat Didih:\nBeaker A (Tulen): ___ °C\nBeaker B (Garam): ___ °C\n\nSila rekodkan takat didih\nke dalam buku nota\nsesudah air mendidih.";
+            rightPageTextMesh.text = gameObject.scene.name == "Lab3_3D" ? ExperimentTextbookContent.Lab3Right : "PEMERHATIAN\n\nTakat Didih:\nBeaker A (Tulen): ___ °C\nBeaker B (Garam): ___ °C\n\nSila rekodkan takat didih\nke dalam buku nota\nsesudah air mendidih.";
+        }
+
+        // Setup cover highlight material
+        Transform coverT = transform.Find("NotebookCover");
+        if (coverT != null)
+        {
+            coverRenderer = coverT.GetComponent<MeshRenderer>();
+            if (coverRenderer != null && coverRenderer.sharedMaterial != null)
+            {
+                coverMaterialInstance = new Material(coverRenderer.sharedMaterial);
+                coverRenderer.material = coverMaterialInstance;
+                originalCoverColor = coverMaterialInstance.color;
+            }
+        }
+    }
+
+    void Update()
+    {
+        bool isPanelOpen = uiPanel != null && uiPanel.activeSelf;
+        if (heatingManager != null && heatingManager.IsExperimentFinished && !isLoggingCompleted && !isPanelOpen)
+        {
+            if (coverMaterialInstance != null)
+            {
+                float pulse = Mathf.PingPong(Time.time * 2.5f, 1f);
+                // Pulse between original color and a bright yellowish highlight
+                coverMaterialInstance.color = Color.Lerp(originalCoverColor, new Color(1.0f, 0.95f, 0.4f), pulse);
+            }
+        }
+        else if (coverMaterialInstance != null && coverMaterialInstance.color != originalCoverColor)
+        {
+            // Reset to original color once clicked/logged or if not yet finished
+            coverMaterialInstance.color = originalCoverColor;
         }
     }
 
@@ -221,7 +257,7 @@ public class InteractiveNotebook3D : MonoBehaviour
             if (feedbackText != null)
             {
                 feedbackText.text = isLoggingCompleted ? "Pemerhatian telah direkodkan." : "Sila masukkan suhu takat didih air tulen dan air garam.";
-                feedbackText.color = isLoggingCompleted ? new Color(0.1f, 0.6f, 0.2f) : new Color(0.2f, 0.2f, 0.2f);
+                feedbackText.color = KidFriendlySceneTheme.Feedback(this, isLoggingCompleted ? new Color(0.1f, 0.6f, 0.2f) : new Color(0.2f, 0.2f, 0.2f));
             }
 
             if (!isLoggingCompleted)
@@ -335,7 +371,7 @@ public class InteractiveNotebook3D : MonoBehaviour
         if (feedbackText != null)
         {
             feedbackText.text = msg;
-            feedbackText.color = col;
+            feedbackText.color = KidFriendlySceneTheme.Feedback(this, col);
         }
     }
 
@@ -397,7 +433,9 @@ public class InteractiveNotebook3D : MonoBehaviour
 
         if (rightPageTextMesh != null)
         {
-            rightPageTextMesh.text = "PEMERHATIAN\n\nTakat Didih:\nBeaker A (Tulen): ___ °C\nBeaker B (Garam): ___ °C\n\nSila rekodkan takat didih\nke dalam buku nota\nsesudah air mendidih.";
+            rightPageTextMesh.text = gameObject.scene.name == "Lab3_3D" ? ExperimentTextbookContent.Lab3Right : "PEMERHATIAN\n\nTakat Didih:\nBeaker A (Tulen): ___ °C\nBeaker B (Garam): ___ °C\n\nSila rekodkan takat didih\nke dalam buku nota\nsesudah air mendidih.";
         }
     }
 }
+
+

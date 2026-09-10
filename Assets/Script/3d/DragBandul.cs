@@ -74,11 +74,11 @@ public class DragBandul : MonoBehaviour
             
             if (roundedSudut <= 10f)
             {
-                teksSudut.color = Color.green;
+                teksSudut.color = KidFriendlySceneTheme.Feedback(this, Color.green);
             }
             else
             {
-                teksSudut.color = Color.red;
+                teksSudut.color = KidFriendlySceneTheme.Feedback(this, Color.red);
             }
         }
     }
@@ -129,5 +129,7 @@ public class DragBandul : MonoBehaviour
             rbBandulUtama.isKinematic = false;
             rbBandulUtama.WakeUp();
         }
+        var tut = FindAnyObjectByType<Lab1TutorialManager>();
+        if (tut != null) tut.CompleteStep2();
     }
 }

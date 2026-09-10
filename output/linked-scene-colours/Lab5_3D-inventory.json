@@ -1,0 +1,364 @@
+{
+  "images": [
+    {
+      "path": "Canvas/bg",
+      "color": "868686FF",
+      "sprite": "Assets/Pictures/background.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Title/Image",
+      "color": "467B8DFF",
+      "sprite": "Assets/UI Flat/btn_light_blue.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/Pemanas_Visual",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Pictures/pemanas.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/Pemanas_Visual/Lampu_Pemanas",
+      "color": "FF8100EC",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/Retort_Stand",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/lab2_assets.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/Bikar_Visual",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/lab2_assets.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/Bikar_Visual/Water_Mask",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/lab2_assets.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/Bikar_Visual/Water_Mask/Air_Visual",
+      "color": "32D8FFC6",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/Bikar_Visual/Water_Mask/Air_Visual/Water_Surface",
+      "color": "72BFCE58",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/Bikar_Visual/ice",
+      "color": "FFFFFF71",
+      "sprite": "Assets/Pictures/lab3.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/Bikar_Visual/spoon",
+      "color": "FFFFFF9F",
+      "sprite": "Assets/Pictures/lab3.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/Retort_Stand (1)",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/lab2_assets.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen",
+      "color": "292929FF",
+      "sprite": "Assets/Pictures/background.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Background",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Fill Area/Fill",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (1)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (2)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (3)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (4)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (5)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (6)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (7)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (8)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (9)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (10)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (11)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/ExitButton",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_close_flat_alt.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/Lab5_QuizPanel",
+      "color": "1A334CF2",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/Lab5_QuizPanel/Ans0",
+      "color": "334C66FF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/Lab5_QuizPanel/Ans1",
+      "color": "334C66FF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/Lab5_QuizPanel/Ans2",
+      "color": "334C66FF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/Lab5_QuizPanel/Ans3",
+      "color": "334C66FF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/Lab5_SummaryPanel",
+      "color": "F2F2F2FF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/Lab5_SummaryPanel/CloseBtn",
+      "color": "CC3333FF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/RotateCameraButton",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_light_blue.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/RotateCameraButton/CameraIcon",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Textures/CameraIcon_Premium.png",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab5_3DTablet/TabletCanvas/Left",
+      "color": "0A1F38D9",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab5_3DTablet/TabletCanvas/Left/Title (1)/Image",
+      "color": "467B8DFF",
+      "sprite": "Assets/UI Flat/btn_light_blue.png",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab5_3DTablet/TabletCanvas/Left/GameObject/SuhuSlider/Background",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab5_3DTablet/TabletCanvas/Left/GameObject/SuhuSlider/Fill Area/Fill",
+      "color": "64ACD2FF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab5_3DTablet/TabletCanvas/Left/GameObject/SuhuSlider/Handle Slide Area/Handle",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab5_3DTablet/TabletCanvas/Left/GameObject/SuhuSlider/leftImage",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/lab2_assets.png",
+      "active": false
+    },
+    {
+      "path": "Main Camera/Lab5_3DTablet/TabletCanvas/Left/GameObject/KadarKacauSlider/Background",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab5_3DTablet/TabletCanvas/Left/GameObject/KadarKacauSlider/Fill Area/Fill",
+      "color": "64ACD2FF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab5_3DTablet/TabletCanvas/Left/GameObject/KadarKacauSlider/Handle Slide Area/Handle",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab5_3DTablet/TabletCanvas/Left/GameObject/KadarKacauSlider/leftImage",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/lab2_assets.png",
+      "active": false
+    },
+    {
+      "path": "Main Camera/Lab5_3DTablet/TabletCanvas/Left/GameObject/SizeSlider/Background",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab5_3DTablet/TabletCanvas/Left/GameObject/SizeSlider/Fill Area/Fill",
+      "color": "64ACD2FF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab5_3DTablet/TabletCanvas/Left/GameObject/SizeSlider/Handle Slide Area/Handle",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab5_3DTablet/TabletCanvas/Left/GameObject/SizeSlider/leftImage",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/lab2_assets.png",
+      "active": false
+    },
+    {
+      "path": "Main Camera/Lab5_3DTablet/TabletCanvas/Left/Bottom/Button",
+      "color": "438742FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab5_3DTablet/TabletCanvas/Left/Bottom/ResetBtn",
+      "color": "FF0000FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab5_3DTablet/TabletCanvas/Left/Bottom/KadarPenyejatan/Image",
+      "color": "467B8DFF",
+      "sprite": "Assets/UI Flat/btn_light_blue.png",
+      "active": true
+    },
+    {
+      "path": "Lab5_Notebook/Lab5_NotebookPanel/SubmitBtn",
+      "color": "1F994CFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Lab5_Notebook/Lab5_NotebookPanel/CloseBtn",
+      "color": "BF3333FF",
+      "sprite": "",
+      "active": false
+    }
+  ],
+  "scripts": [
+    "Assets/Script/LoadingSpinner.cs",
+    "Assets/Script/FadingDotsSpinner.cs",
+    "Assets/Script/ReturnToMainMenu.cs",
+    "Assets/Script/CameraDragArea.cs",
+    "Assets/Script/3d/SolubilityManager3D.cs",
+    "Assets/Script/3d/SolubilityAudio3D.cs",
+    "Assets/Script/3d/Lab5IntroCamera.cs",
+    "Assets/Script/3d/WirePulseAnimator.cs",
+    "Assets/Script/3d/TooltipHover3D.cs",
+    "Assets/Script/3d/SolubilityHeaterPowerSwitch3D.cs",
+    "Assets/Script/3d/SolubilityThermometer3D.cs",
+    "Assets/Script/3d/LookAtCamera3D.cs",
+    "Assets/Script/3d/InteractiveNotebookLab5.cs",
+    "Assets/Script/3d/SolubilityGraph3D.cs",
+    "Assets/Script/3d/QuizManagerLab5.cs",
+    "Assets/Script/3d/Lab5TutorialManager.cs"
+  ]
+}

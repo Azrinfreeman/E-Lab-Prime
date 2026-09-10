@@ -1,0 +1,12 @@
+{
+  "generator": "edge-tts",
+  "voice": "ms-MY-OsmanNeural",
+  "rate": "-8%",
+  "synthetic": true,
+  "lines": [
+    "Mari mulakan eksperimen pemanasan air. Klik dan seret bekas garam ke dalam bikar untuk menambahkan garam.",
+    "Klik cermin mata keselamatan untuk memakainya sebelum memulakan pemanasan.",
+    "Buka injap gas pada penunu Bunsen. Selepas gas dibuka, ikut arahan seterusnya untuk menyalakan api.",
+    "Klik pemetik api untuk memulakan pemanasan. Perhatikan perubahan suhu dan rekodkan bacaan yang dipaparkan."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "cue": 0,
+  "overlay": false,
+  "replayPlaying": true,
+  "muteStops": true,
+  "replayAfterMute": true,
+  "stop": true,
+  "textOverflow": false
+}

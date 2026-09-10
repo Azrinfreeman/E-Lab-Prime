@@ -6,11 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Boot.unity
+    guid: 9b4f4bf4ce2a99c46908853230138ff7
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 0aa9afd714fd01f40869aaa6d6c5e9d7
+  - enabled: 1
     path: Assets/Scenes/Login.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
-    path: Assets/Scenes/Lab1.unity
-    guid: 8fab77417ea0b2248871a436eafa3ec3
   - enabled: 1
     path: Assets/Scenes/Lab1_3D.unity
     guid: dec14c66924d0f2408de15998f55bc5e
@@ -18,29 +21,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Lab2_3D.unity
     guid: 1ddaedb425d071b40b2f43d3e6c269b4
   - enabled: 1
-    path: Assets/Scenes/Lab2.unity
-    guid: 4fa11ff8047c82745a095165be32b1c8
-  - enabled: 1
-    path: Assets/Scenes/Lab3.unity
-    guid: d4db5a74b64c66649ba67aec3e40b0a3
-  - enabled: 1
     path: Assets/Scenes/Lab3_3D.unity
     guid: 3524962328fd4f0468b39b12d34fd798
-  - enabled: 1
-    path: Assets/Scenes/Lab4_0.unity
-    guid: 8ebe109a774a37e4288d92bb3559b303
   - enabled: 1
     path: Assets/Scenes/Lab4_3D.unity
     guid: 3cf4d68ae1709964aa4537a94f5647ef
   - enabled: 1
-    path: Assets/Scenes/Lab5.unity
-    guid: 4bb82ff5e27979045a3ef401fc17b91c
-  - enabled: 1
-    path: Assets/Scenes/Lab5_0.unity
-    guid: a4533ad558f37fd41911c329b05b4fdc
-  - enabled: 1
-    path: Assets/Scenes/Lab6.unity
-    guid: 0684f30ca72ca9442a3feaa3845371a0
+    path: Assets/Scenes/Lab5_3D.unity
+    guid: ce08dbf564399f94fb0bde8ea27f7487
   - enabled: 1
     path: Assets/Scenes/Lab6_0.unity
     guid: eb7060cfb8d294b4884560eda884562f
@@ -50,8 +38,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lab8.unity
     guid: 22538614c1755cf4594d51ee5594f9f8
-  - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: 0aa9afd714fd01f40869aaa6d6c5e9d7
-  m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_configObjects: {}

@@ -1,0 +1,13 @@
+{
+  "generator": "edge-tts",
+  "voice": "ms-MY-OsmanNeural",
+  "rate": "-8%",
+  "synthetic": true,
+  "lines": [
+    "Mari mulakan eksperimen bandul. Laraskan panjang tali menggunakan peluncur di panel kanan.",
+    "Tarik bandul sedikit ke sisi, pada sudut kurang daripada sepuluh darjah. Kemudian, lepaskan bandul.",
+    "Mulakan jam randik di panel kiri. Tunggu sehingga sepuluh ayunan lengkap. Jam randik akan berhenti secara automatik.",
+    "Sepuluh ayunan sudah lengkap. Rekodkan bacaan menggunakan kawalan rekod data. Semak hasilnya dalam jadual pemerhatian.",
+    "Bagus! Bacaan telah direkodkan. Ulang eksperimen dengan panjang tali yang berbeza untuk membandingkan hasil."
+  ]
+}

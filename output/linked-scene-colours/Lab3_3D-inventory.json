@@ -1,0 +1,530 @@
+{
+  "images": [
+    {
+      "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel",
+      "color": "0A1F38D9",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel/Btn_FrontView",
+      "color": "D92626E6",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel/Btn_RightView",
+      "color": "1A73D9D9",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel/Btn_LeftView",
+      "color": "1A73D9D9",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel/Btn_BehindView",
+      "color": "1A73D9D9",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel/Btn_TopView",
+      "color": "1A73D9D9",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel/Btn_TextbookView",
+      "color": "1A73D9D9",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel/Btn_ThermoA",
+      "color": "1A73D9D9",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab3_3DTablet/TabletCanvas/CameraPOVPanel/Btn_ThermoB",
+      "color": "1A73D9D9",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab3_3DTablet/TabletCanvas/ControlPanel",
+      "color": "081429E6",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab3_3DTablet/TabletCanvas/ControlPanel/Btn_StartHeating",
+      "color": "26B226E6",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "Main Camera/Lab3_3DTablet/TabletCanvas/Btn_ResetExperiment",
+      "color": "B22626E6",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "Canvas/bg",
+      "color": "868686FF",
+      "sprite": "Assets/Pictures/background.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Title/Image",
+      "color": "467B8DFF",
+      "sprite": "Assets/UI Flat/btn_light_blue.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/TempInfo",
+      "color": "7A7979FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Pemanas_Visual",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Pictures/lab3_asset.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Pemanas_Visual/Lampu_Pemanas",
+      "color": "FF8100FF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Bikar_Visual",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/lab2_assets.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Bikar_Visual/Water_Mask",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/lab2_assets.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Bikar_Visual/Water_Mask/Air_Visual",
+      "color": "32D8FFC6",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Bikar_Visual/Water_Mask/Air_Visual/Water_Surface",
+      "color": "72BFCE58",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Bikar_Visual/BunsenBurner",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Pictures/lab3_asset.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Bikar_Visual/BunsenBurner/fire",
+      "color": "FF0000FF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Bikar_Visual/Temp",
+      "color": "FFFFFF77",
+      "sprite": "Assets/Pictures/temp.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1/TempInfo",
+      "color": "7A7979FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1/Info",
+      "color": "7A7979FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1 (1)/Pemanas_Visual",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Pictures/lab3_asset.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1 (1)/Pemanas_Visual/Lampu_Pemanas",
+      "color": "FF8100FF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1 (1)/Bikar_Visual",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/lab2_assets.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1 (1)/Bikar_Visual/Water_Mask",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/lab2_assets.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1 (1)/Bikar_Visual/Water_Mask/Air_Visual",
+      "color": "32D8FFC6",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1 (1)/Bikar_Visual/Water_Mask/Air_Visual/Water_Surface",
+      "color": "72BFCE58",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1 (1)/Bikar_Visual/BunsenBurner",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Pictures/lab3_asset.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1 (1)/Bikar_Visual/BunsenBurner/fire",
+      "color": "FF0000FF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1 (1)/Bikar_Visual/Temp",
+      "color": "FFFFFF77",
+      "sprite": "Assets/Pictures/temp.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1 (1)/TempInfo",
+      "color": "7A7979FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Middle/1 (1)/Info",
+      "color": "7A7979FF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Bottom/Button",
+      "color": "70C767FF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Bottom/Button (1)",
+      "color": "F9D146FF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Bottom/Button (2)",
+      "color": "DE5753FF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Right/Image",
+      "color": "D1D1D17A",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Right/Image/Garam",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Pictures/lab3_asset.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/Right/Title/Image",
+      "color": "467B8DFF",
+      "sprite": "Assets/UI Flat/btn_light_blue.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/ViewGraph",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/ViewGraph/Image",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/bg/ViewGraph/Image/Image",
+      "color": "B8B8B8FF",
+      "sprite": "Assets/Pictures/Gemini_Generated_Image_6q302f6q302f6q30.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/GraphWindow/bg",
+      "color": "393939BE",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/GraphWindow/GraphMain",
+      "color": "7A7A7AFF",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/GraphWindow/GraphMain/Button",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_close_flat_alt.png",
+      "active": false
+    },
+    {
+      "path": "Canvas/GraphWindow/GraphMain/GraphPlotArea",
+      "color": "6D6C6DFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/GraphWindow/GraphMain/Bottom/Image",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/GraphWindow/GraphMain/Left/Image",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen",
+      "color": "292929FF",
+      "sprite": "Assets/Pictures/background.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Background",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Fill Area/Fill",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (1)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (2)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (3)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (4)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (5)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (6)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (7)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (8)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (9)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (10)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (11)",
+      "color": "FFFFFFFF",
+      "sprite": "Resources/unity_builtin_extra",
+      "active": true
+    },
+    {
+      "path": "Canvas/LoadingComponent/ExitButton",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_close_flat_alt.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/Quiz/bg",
+      "color": "65656581",
+      "sprite": "",
+      "active": true
+    },
+    {
+      "path": "Canvas/Quiz/bg/QuizPanel",
+      "color": "8F8F8FB2",
+      "sprite": "Assets/UI Flat/btn_gray_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/Quiz/bg/QuizPanel/ButtonA",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/Quiz/bg/QuizPanel/ButtonB",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/Quiz/bg/QuizPanel/ButtonC",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_white_flat.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/NotebookLogPanel",
+      "color": "F5F2E6FF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/NotebookLogPanel/Outline",
+      "color": "0000000D",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/NotebookLogPanel/InputA",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/NotebookLogPanel/InputB",
+      "color": "FFFFFFFF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/NotebookLogPanel/Buttons/Btn_SubmitLog",
+      "color": "1F9440FF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/NotebookLogPanel/Buttons/Btn_CloseLog",
+      "color": "A63333FF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/Lab3_SummaryPanel",
+      "color": "F2F2F2FF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/Lab3_SummaryPanel/Btn_CloseSummary",
+      "color": "339933FF",
+      "sprite": "",
+      "active": false
+    },
+    {
+      "path": "Canvas/RotateCameraButton",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/UI Flat/btn_light_blue.png",
+      "active": true
+    },
+    {
+      "path": "Canvas/RotateCameraButton/CameraIcon",
+      "color": "FFFFFFFF",
+      "sprite": "Assets/Textures/CameraIcon_Premium.png",
+      "active": true
+    }
+  ],
+  "scripts": [
+    "Assets/Script/DragGaram.cs",
+    "Assets/Script/TemperatureGraphUI.cs",
+    "Assets/Script/LoadingSpinner.cs",
+    "Assets/Script/FadingDotsSpinner.cs",
+    "Assets/Script/ReturnToMainMenu.cs",
+    "Assets/Script/CameraDragArea.cs",
+    "Assets/Script/PemanasanAir.cs",
+    "Assets/Script/QuizManager.cs",
+    "Assets/Script/3d/TooltipHover3D.cs",
+    "Assets/Script/3d/BunsenCollar3D.cs",
+    "Assets/Script/3d/InteractableHighlight3D.cs",
+    "Assets/Script/3d/DragGaram3D.cs",
+    "Assets/Script/3d/DragLighter3D.cs",
+    "Assets/Script/3d/GogglesInteraction3D.cs",
+    "Assets/Script/3d/LookAtCamera3D.cs",
+    "Assets/Script/3d/RealTimeTempGraph3D.cs",
+    "Assets/Script/3d/InteractiveNotebook3D.cs",
+    "Assets/Script/3d/Stopwatch3D.cs",
+    "Assets/Script/3d/WaterHeatingManager3D.cs",
+    "Assets/Script/3d/Lab3TutorialManager.cs"
+  ]
+}

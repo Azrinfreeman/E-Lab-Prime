@@ -1,0 +1,9 @@
+{
+  "status": "failed",
+  "scene": "Assets/Scenes/MainMenu.unity",
+  "panel": "Canvas/background/AmaliPanel",
+  "path": "E:\\Projects\\2026Projject\\Prime\\E-Lab Prime\\output\\agent-captures\\06722882a69245e6b1dab544acf74ef8\\capture.png",
+  "manifest": "E:\\Projects\\2026Projject\\Prime\\E-Lab Prime\\output\\agent-captures\\06722882a69245e6b1dab544acf74ef8\\manifest.json",
+  "message": "Timed out waiting for ready view or PNG completion. Focus Game view and inspect state before retrying.",
+  "finishedUtc": "2026-09-10T11:24:16.9498320Z"
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "scene": "Lab3_3D",
+    "pages": [
+      "PEMANASAN AIR\n\nTUJUAN\nBandingkan takat didih\nair tulen dan air garam.\n\nPEMERHATIAN\nSuhu naik semasa\npemanasan. Catat suhu\napabila air mendidih.\n\nKESIMPULAN DIJANGKA\nGaram menaikkan\ntakat didih air.",
+      "REKOD TAKAT DIDIH\n\nBikar A (air tulen):\nBelum direkod.\nBikar B (air garam):\nBelum direkod.\n\nPANDUAN SIMULASI\nA: 100 C; B: 104 C.\nIni nilai rujukan,\nbukan bacaan anda.\n\nSemak termometer dan\nrekod melalui Log Data."
+    ]
+  },
+  {
+    "scene": "Lab4_3D",
+    "pages": [
+      "PENYEJATAN AIR\n\nTUJUAN\nMengkaji faktor yang\nmengubah kadar\npenyejatan air.\n\nFAKTOR DIUJI\nSuhu, kelajuan angin,\nluas permukaan dan\nkelembapan udara.\n\nUbah satu faktor;\nkekalkan yang lain.",
+      "JANGKAAN PEMERHATIAN\n\nAir berkurang apabila\npenyejatan berlaku.\n\nLEBIH CEPAT APABILA\nSuhu lebih tinggi,\nangin lebih laju,\npermukaan lebih luas,\nkelembapan lebih rendah.\n\nBANDINGKAN HASIL\nSemak kadar pada tablet\ndan masa yang diambil.\nCatat tetapan setiap ujian."
+    ]
+  },
+  {
+    "scene": "Lab5_3D",
+    "pages": [
+      "PELARUTAN GULA\n\nTUJUAN\nMengkaji faktor yang\nmengubah kadar gula\nmelarut dalam air.\n\nFAKTOR DIUJI\nSuhu air, kacauan\ndan saiz zarah gula.\n\nUbah satu faktor;\nkekalkan yang lain.",
+      "JANGKAAN PEMERHATIAN\n\nGula semakin berkurang\napabila melarut.\n\nLEBIH CEPAT APABILA\nAir lebih panas,\nkacauan lebih laju,\nzarah gula lebih kecil.\n\nKESIMPULAN\nFaktor ini mengubah\nkadar pelarutan, bukan\nsekadar jumlah gula.\nBandingkan masa ujian."
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "Scene": "Boot",
+    "ComponentsWithEvents": 0,
+    "ChangedEventComponents": []
+  },
+  {
+    "Scene": "Login",
+    "ComponentsWithEvents": 4,
+    "ChangedEventComponents": []
+  },
+  {
+    "Scene": "Lab1_3D",
+    "ComponentsWithEvents": 17,
+    "ChangedEventComponents": []
+  },
+  {
+    "Scene": "Lab2_3D",
+    "ComponentsWithEvents": 29,
+    "ChangedEventComponents": []
+  },
+  {
+    "Scene": "Lab3_3D",
+    "ComponentsWithEvents": 42,
+    "ChangedEventComponents": []
+  },
+  {
+    "Scene": "Lab4_3D",
+    "ComponentsWithEvents": 34,
+    "ChangedEventComponents": []
+  },
+  {
+    "Scene": "Lab5_3D",
+    "ComponentsWithEvents": 19,
+    "ChangedEventComponents": []
+  },
+  {
+    "Scene": "Lab6_0",
+    "ComponentsWithEvents": 10,
+    "ChangedEventComponents": []
+  },
+  {
+    "Scene": "Lab7",
+    "ComponentsWithEvents": 9,
+    "ChangedEventComponents": []
+  },
+  {
+    "Scene": "Lab8",
+    "ComponentsWithEvents": 9,
+    "ChangedEventComponents": []
+  }
+]

@@ -11,6 +11,7 @@ public class Stopwatch3D : MonoBehaviour
     private float distanceToCam;
     private bool isDragging = false;
     private bool isHovering = false;
+    private Vector3 dragOffset;
 
     void Start()
     {
@@ -74,7 +75,15 @@ public class Stopwatch3D : MonoBehaviour
     {
         isDragging = true;
         if (mainCam != null)
+        {
             distanceToCam = mainCam.WorldToScreenPoint(transform.position).z;
+            Vector3 mouseScreenPos = Input.mousePosition;
+            mouseScreenPos.z = distanceToCam;
+            Vector3 mouseWorldPos = mainCam.ScreenToWorldPoint(mouseScreenPos);
+            
+            // Calculate exact offset without artificial lift for perfect cursor alignment
+            dragOffset = transform.position - mouseWorldPos;
+        }
     }
 
     void OnMouseDrag()
@@ -85,14 +94,13 @@ public class Stopwatch3D : MonoBehaviour
         mouseScreenPos.z = distanceToCam;
         Vector3 mouseWorldPos = mainCam.ScreenToWorldPoint(mouseScreenPos);
         
-        // Keep it slightly above the table while dragging
-        mouseWorldPos.y = originalPos.y + 0.1f;
+        Vector3 targetPos = mouseWorldPos + dragOffset;
         
         // Constrain dragging to the table area roughly
-        mouseWorldPos.x = Mathf.Clamp(mouseWorldPos.x, -2f, 2f);
-        mouseWorldPos.z = Mathf.Clamp(mouseWorldPos.z, -1f, 1f);
+        targetPos.x = Mathf.Clamp(targetPos.x, -2f, 2f);
+        targetPos.z = Mathf.Clamp(targetPos.z, -1f, 1f);
 
-        transform.position = mouseWorldPos;
+        transform.position = targetPos;
     }
 
     void OnMouseUp()

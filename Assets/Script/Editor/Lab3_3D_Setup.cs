@@ -19,10 +19,7 @@ public class Lab3_3D_Setup : EditorWindow
     {
         if (EditorSceneManager.GetActiveScene().name != "Lab3_3D")
         {
-            if (!EditorUtility.DisplayDialog("Warning: Wrong Scene", "You are trying to generate Lab 3 inside '" + EditorSceneManager.GetActiveScene().name + "'.\n\nThis will inject Lab 3 objects into your current scene. Are you sure you want to continue?", "Yes, Generate Anyway", "Cancel"))
-            {
-                return;
-            }
+            EditorSceneManager.OpenScene("Assets/Scenes/Lab3_3D.unity", OpenSceneMode.Single);
         }
 
         DestroyDuplicateLights();
@@ -503,6 +500,9 @@ public class Lab3_3D_Setup : EditorWindow
 
         // Mark scene dirty and save
         var activeScene = EditorSceneManager.GetActiveScene();
+        if (KidFriendlySceneTheme.Includes(activeScene)) KidFriendlySceneColourSetup.Apply(activeScene, false);
+        Lab3VoiceSetup.Apply(activeScene);
+        ExperimentTextbookSetup.Apply(activeScene);
         EditorSceneManager.MarkSceneDirty(activeScene);
         EditorSceneManager.SaveScene(activeScene);
 
@@ -1342,10 +1342,13 @@ public class Lab3_3D_Setup : EditorWindow
     private static GameObject CreateHologramBoard(Vector3 experimentOffset, Material glassMat, Material borderMat, out TextMesh holoTM)
     {
         GameObject hologramBoard = new GameObject("HologramDataBoard");
-        hologramBoard.transform.position = experimentOffset + new Vector3(-1.728f, 1.275f, -0.3f);
-        hologramBoard.transform.rotation = Quaternion.Euler(358f, 322f, 351f);
-        hologramBoard.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
-        hologramBoard.AddComponent<HologramBillboard>();
+        hologramBoard.transform.position = experimentOffset + new Vector3(-1.15f, 1.351f, -0.538f);
+        hologramBoard.transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+
+        Vector3 camPos = experimentOffset + new Vector3(0f, 0.95f, -1.8f);
+        hologramBoard.transform.LookAt(hologramBoard.transform.position + (hologramBoard.transform.position - camPos).normalized);
+
+        hologramBoard.AddComponent<LookAtCamera3D>();
 
         // Glass Plate
         GameObject glassPlate = GameObject.CreatePrimitive(PrimitiveType.Cube);
@@ -1861,31 +1864,60 @@ public class Lab3_3D_Setup : EditorWindow
             GameObject btnObj = new GameObject("RotateCameraButton");
             btnObj.transform.SetParent(canvasObj.transform, false);
             UnityEngine.UI.Image img = btnObj.AddComponent<UnityEngine.UI.Image>();
-            img.color = new Color(0.1f, 0.5f, 0.9f, 0.9f);
+            Sprite btnBlue = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/UI Flat/btn_light_blue.png");
+            img.sprite = btnBlue;
+            img.type = UnityEngine.UI.Image.Type.Sliced;
+            img.color = Color.white;
+            img.pixelsPerUnitMultiplier = 2f;
+            EditorUtility.SetDirty(img);
 
             RectTransform rect = btnObj.GetComponent<RectTransform>();
             rect.anchorMin = new Vector2(0, 0);
             rect.anchorMax = new Vector2(0, 0);
             rect.pivot = new Vector2(0, 0);
             rect.anchoredPosition = new Vector2(20, 20);
-            rect.sizeDelta = new Vector2(150, 150);
+            rect.sizeDelta = new Vector2(90, 90);
 
-            GameObject textObj = new GameObject("Text");
-            textObj.transform.SetParent(btnObj.transform, false);
-            UnityEngine.UI.Text txt = textObj.AddComponent<UnityEngine.UI.Text>();
-            txt.text = "DRAG TO\nROTATE\nCAMERA";
-            txt.alignment = TextAnchor.MiddleCenter;
-            txt.color = Color.white;
-            txt.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
-            txt.fontSize = 20;
-            txt.fontStyle = FontStyle.Bold;
-            txt.raycastTarget = false;
+            // Add CameraIcon inside the button
+            GameObject iconObj = new GameObject("CameraIcon");
+            iconObj.transform.SetParent(btnObj.transform, false);
+            UnityEngine.UI.Image iconImg = iconObj.AddComponent<UnityEngine.UI.Image>();
+            Sprite camSpr = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Textures/CameraIcon_Premium.png");
+            iconImg.sprite = camSpr;
+            iconImg.color = Color.white;
+            iconImg.raycastTarget = false;
+            
+            RectTransform iconRect = iconObj.GetComponent<RectTransform>();
+            iconRect.anchorMin = new Vector2(0.5f, 0.55f);
+            iconRect.anchorMax = new Vector2(0.5f, 0.55f);
+            iconRect.pivot = new Vector2(0.5f, 0.5f);
+            iconRect.anchoredPosition = Vector2.zero;
+            iconRect.sizeDelta = new Vector2(45, 45);
 
-            RectTransform textRect = textObj.GetComponent<RectTransform>();
-            textRect.anchorMin = Vector2.zero;
-            textRect.anchorMax = Vector2.one;
-            textRect.offsetMin = Vector2.zero;
-            textRect.offsetMax = Vector2.zero;
+            // Add CameraLabel text below the icon
+            GameObject labelObj = new GameObject("CameraLabel", typeof(RectTransform));
+            labelObj.transform.SetParent(btnObj.transform, false);
+            
+            RectTransform labelRect = labelObj.GetComponent<RectTransform>();
+            labelRect.anchorMin = new Vector2(0, 0);
+            labelRect.anchorMax = new Vector2(1, 0.32f);
+            labelRect.offsetMin = new Vector2(4, 2);
+            labelRect.offsetMax = new Vector2(-4, 0);
+            
+            TMPro.TextMeshProUGUI labelTmp = labelObj.AddComponent<TMPro.TextMeshProUGUI>();
+            string[] fontAssets = AssetDatabase.FindAssets("FredokaOne SDF t:TMP_FontAsset");
+            if (fontAssets.Length > 0)
+            {
+                labelTmp.font = AssetDatabase.LoadAssetAtPath<TMPro.TMP_FontAsset>(AssetDatabase.GUIDToAssetPath(fontAssets[0]));
+            }
+            labelTmp.text = "KAMERA";
+            labelTmp.fontSize = 12;
+            labelTmp.fontStyle = TMPro.FontStyles.Bold;
+            labelTmp.color = Color.white;
+            labelTmp.alignment = TMPro.TextAlignmentOptions.Center;
+            labelTmp.enableWordWrapping = false;
+            labelTmp.overflowMode = TMPro.TextOverflowModes.Truncate;
+            labelTmp.raycastTarget = false;
 
             CameraDragArea dragScript = btnObj.AddComponent<CameraDragArea>();
             dragScript.rotationSpeed = 0.5f;
@@ -2439,11 +2471,11 @@ public class Lab3_3D_Setup : EditorWindow
         GameObject submitBtnObj = new GameObject("Btn_SubmitLog");
         submitBtnObj.transform.SetParent(btnContainer.transform, false);
         RectTransform submitRect = submitBtnObj.AddComponent<RectTransform>();
-        submitRect.anchorMin = new Vector2(0f, 0.5f);
-        submitRect.anchorMax = new Vector2(0.5f, 0.5f);
-        submitRect.pivot = new Vector2(0f, 0.5f);
+        submitRect.anchorMin = new Vector2(0f, 0f);
+        submitRect.anchorMax = new Vector2(0.5f, 1f);
+        submitRect.pivot = new Vector2(0.5f, 0.5f);
         submitRect.anchoredPosition = new Vector2(0f, 0f);
-        submitRect.sizeDelta = new Vector2(170f, 36f);
+        submitRect.sizeDelta = new Vector2(0f, 0f);
 
         UnityEngine.UI.Image submitImg = submitBtnObj.AddComponent<UnityEngine.UI.Image>();
         submitImg.color = new Color(0.12f, 0.58f, 0.25f, 1f); // Green
@@ -2471,11 +2503,11 @@ public class Lab3_3D_Setup : EditorWindow
         GameObject closeBtnObj = new GameObject("Btn_CloseLog");
         closeBtnObj.transform.SetParent(btnContainer.transform, false);
         RectTransform closeRect = closeBtnObj.AddComponent<RectTransform>();
-        closeRect.anchorMin = new Vector2(1f, 0.5f);
-        closeRect.anchorMax = new Vector2(1f, 0.5f);
-        closeRect.pivot = new Vector2(1f, 0.5f);
+        closeRect.anchorMin = new Vector2(0.5f, 0f);
+        closeRect.anchorMax = new Vector2(1f, 1f);
+        closeRect.pivot = new Vector2(0.5f, 0.5f);
         closeRect.anchoredPosition = new Vector2(0f, 0f);
-        closeRect.sizeDelta = new Vector2(170f, 36f);
+        closeRect.sizeDelta = new Vector2(0f, 0f);
 
         UnityEngine.UI.Image closeImg = closeBtnObj.AddComponent<UnityEngine.UI.Image>();
         closeImg.color = new Color(0.65f, 0.2f, 0.2f, 1f); // Red
@@ -2765,3 +2797,5 @@ public class Lab3_3D_Setup : EditorWindow
     }
 }
 #endif
+
+

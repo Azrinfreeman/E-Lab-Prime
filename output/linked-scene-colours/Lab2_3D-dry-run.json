@@ -1,0 +1,492 @@
+[
+  {
+    "path": "Main Camera/Lab2_3DTablet/TabletCanvas/CameraPOVPanel",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Main Camera/Lab2_3DTablet/TabletCanvas/CameraPOVPanel/Btn_DefaultView",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE9FF"
+  },
+  {
+    "path": "Main Camera/Lab2_3DTablet/TabletCanvas/CameraPOVPanel/Btn_AmmeterView",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE9FF"
+  },
+  {
+    "path": "Main Camera/Lab2_3DTablet/TabletCanvas/CameraPOVPanel/Btn_TestTubesView",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE9FF"
+  },
+  {
+    "path": "Main Camera/Lab2_3DTablet/TabletCanvas/CameraPOVPanel/Btn_TextbookView",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "775AE9FF"
+  },
+  {
+    "path": "Main Camera/Lab2_3DTablet/TabletCanvas/StatusPanel",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Main Camera/Lab2_3DTablet/TabletCanvas/Btn_ResetExperiment",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FF4936FF"
+  },
+  {
+    "path": "Canvas/bg",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Title/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86FFF"
+  },
+  {
+    "path": "Canvas/bg/Title/Image/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Title (1)/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86FFF"
+  },
+  {
+    "path": "Canvas/bg/Title (1)/Image/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Pemanas_Visual",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Pemanas_Visual/Lampu_Pemanas",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FF8100FF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Battery",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Battery/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Battery/Image (1)",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual",
+    "id": 2,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/Water_Mask",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/Water_Mask/Air_Visual",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "32D8FFC6"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/Water_Mask/Air_Visual/Water_Surface",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "72BFCE58"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/BunsenBurner",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/Bikar_Visual (2)",
+    "id": 2,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/TestTube1",
+    "id": 3,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/TestTube1/WaterMask",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/TestTube1/WaterMask/water",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "32D8FFA4"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/TestTube1/WaterMask/water/Water_Surface",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "72BFCE58"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/TestTube1/Image",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFD1"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/TestTube1/TargetOxygen",
+    "id": 2,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/TestTube2",
+    "id": 4,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/TestTube2/WaterMask",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/TestTube2/WaterMask/water",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "32D8FFA4"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/TestTube2/WaterMask/water/Water_Surface",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "72BFCE58"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual/TestTube2/Image",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFD1"
+  },
+  {
+    "path": "Canvas/bg/Middle/1/Bikar_Visual (1)",
+    "id": 3,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/Bottom/GasOxygenBtn",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/bg/Bottom/GasOxygenBtn/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Bottom/Button (1)",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FF4936FF"
+  },
+  {
+    "path": "Canvas/bg/Bottom/Button (1)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Bottom/GasHydrogenBtn",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/bg/Bottom/GasHydrogenBtn/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/Button (3)",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/bg/Button (3)/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/SuccessPanel_Amali2/bg",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/SuccessPanel_Amali2/bg/QuizPanel",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/bg/SuccessPanel_Amali2/bg/QuizPanel/TitleText",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/SuccessPanel_Amali2/bg/QuizPanel/TitleText (1)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/SuccessPanel_Amali2/bg/QuizPanel/ButtonC",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFAF13FF"
+  },
+  {
+    "path": "Canvas/bg/SuccessPanel_Amali2/bg/QuizPanel/ButtonC/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/SuccessPanel_Amali2/bg/QuizPanel/FeedbackText",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/bg/SuccessPanel_Amali2/bg/QuitButton",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/bg/SuccessPanel_Amali2/bg/QuitButton/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "D2EDFFFF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Text (TMP)",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Background",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "ABC0D4FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Fill Area/Fill",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "22B86FFF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/Slider/Text_Peratusan",
+    "kind": "Text",
+    "action": "colour"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image",
+    "id": 0,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (1)",
+    "id": 1,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (2)",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (3)",
+    "id": 3,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (4)",
+    "id": 4,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (5)",
+    "id": 5,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (6)",
+    "id": 6,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (7)",
+    "id": 7,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (8)",
+    "id": 8,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (9)",
+    "id": 9,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (10)",
+    "id": 10,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/Panel_LoadingSreen/LoadingSpinner_Holder/Image (11)",
+    "id": 11,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "178DE9FF"
+  },
+  {
+    "path": "Canvas/LoadingComponent/ExitButton",
+    "id": 1,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/RotateCameraButton",
+    "id": 2,
+    "kind": "Image",
+    "action": "colour",
+    "colour": "FFFDEDFF"
+  },
+  {
+    "path": "Canvas/RotateCameraButton/CameraIcon",
+    "id": 0,
+    "kind": "Image",
+    "action": "preserve",
+    "colour": "FFFFFFFF"
+  },
+  {
+    "path": "Canvas/RotateCameraButton/CameraLabel",
+    "kind": "Text",
+    "action": "colour"
+  }
+]

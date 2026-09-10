@@ -1,0 +1,11 @@
+{
+  "generator": "edge-tts",
+  "voice": "ms-MY-OsmanNeural",
+  "rate": "-8%",
+  "synthetic": true,
+  "lines": [
+    "Mari mulakan eksperimen elektrolisis. Klik suis untuk melengkapkan litar dan memulakan eksperimen.",
+    "Perhatikan gelembung gas pada kedua-dua elektrod. Tunggu sehingga proses pengumpulan gas selesai.",
+    "Semak label gas dan bandingkan hasil pemerhatian. Buka buku nota untuk merekod pemerhatian dan jawab kuiz yang disediakan."
+  ]
+}
